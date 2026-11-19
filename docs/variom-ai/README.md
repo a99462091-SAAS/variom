@@ -29,7 +29,21 @@ MAX planning documents are the source foundation for reusable planning material,
 20 Product Decisions Register
 21 Gate B Normative Contract Plan
 22 Functional Requirements & Acceptance Catalogue
-23 Domain Model & Data Dictionary\n24 Workflow & Job State Machines\n25 API & Schema Contracts\n26 Credit Ledger & Commercial Boundaries\n27 Security, Privacy & Data Lifecycle\n28 Provider & Capability Evidence Register\n29 UX Interaction & Content Contract\n30 Master Storyboard & Video Production Contract\n31 Simple Smart Editing Contract\n32 Virtual Character Contract\n33 Creative Intelligence & Style Registry Contract\n34 Test & Traceability Strategy\n35 Operations, Backup & Release Readiness\n36 Gate B Integrated Consistency & Readiness Review
+23 Domain Model & Data Dictionary
+24 Workflow & Job State Machines
+25 API & Schema Contracts
+26 Credit Ledger & Commercial Boundaries
+27 Security, Privacy & Data Lifecycle
+28 Provider & Capability Evidence Register
+29 UX Interaction & Content Contract
+30 Master Storyboard & Video Production Contract
+31 Simple Smart Editing Contract
+32 Virtual Character Contract
+33 Creative Intelligence & Style Registry Contract
+34 Test & Traceability Strategy
+35 Operations, Backup & Release Readiness
+36 Gate B Integrated Consistency & Readiness Review
+37 Gate C Final Evidence & Readiness Audit
 
 **Documentation consistency:** document 15 is the earlier consistency review and is superseded where newer source recovery or the full readiness audit in document 18 records a later result.
 
