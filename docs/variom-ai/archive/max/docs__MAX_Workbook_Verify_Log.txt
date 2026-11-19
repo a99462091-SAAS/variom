@@ -1,0 +1,79 @@
+# HISTORICAL — results below are for the workbook BEFORE the 2026-10-31 reconciliation (233,212 bytes).
+# The check "Phase 0 still closed" reflected an older record that has been withdrawn: Phase 0 is NOT closed.
+# The reconciled workbook was re-validated separately; see docs/project-tracker.md ("Workbook integration notes").
+# The original 64-check script is not in the repository.
+
+=== A. package and structure
+PASS | zip integrity | 55 parts
+PASS | all XML parts well-formed 
+PASS | 11 sheets: 8 original names preserved + 3 new | ['Dashboard', 'Planning Readiness', 'Roadmap', 'Implementation Tracker', 'Tasks', 'Milestones', 'Decisions', 'Blockers', 'Work Log', 'Design Test Suite', 'Settings']
+PASS | original sheets keep their relative order 
+PASS | 2 charts present 
+PASS | chart series ranges point at populated cells (shifted with the Dashboard) | [['Dashboard!$D$44:$D$44', 'Dashboard!$B$45:$B$52', 'Dashboard!$D$45:$D$52'], ['Dashboard!$B$65:$B$77', 'Dashboard!$I$65:$I$77']]
+PASS | chart series moved by +12 rows with the Dashboard | [['Dashboard!$D$44:$D$44', 'Dashboard!$B$45:$B$52', 'Dashboard!$D$45:$D$52'], ['Dashboard!$B$65:$B$77', 'Dashboard!$I$65:$I$77']]
+PASS | Dashboard protection preserved with identical settings | <sheetProtection sheet="true" formatColumns="false" formatRows="false"/>
+PASS | Roadmap protection preserved with identical settings | <sheetProtection sheet="true" formatColumns="false" formatRows="false" sort="false" autoFilter="false"/>
+PASS | recalculate-on-open flag set 
+PASS | original freeze panes preserved | {'Dashboard': None, 'Roadmap': 'C2', 'Tasks': 'D2', 'Milestones': 'B2', 'Decisions': 'B2', 'Blockers': 'B2', 'Work Log': 'B2', 'Settings': None}
+PASS | 5 comment parts preserved 
+PASS | tab colours preserved on original sheets 
+=== B. preservation of every original cell (value and formula), Dashboard rows shifted +12
+PASS | no original cell overwritten or lost (4366 non-empty cells compared) | []
+PASS | no original formula turned into text / removed | []
+PASS | original formulas unchanged (except Dashboard B2 wording; shifted refs normalised) | []
+PASS | intended text edits present (Roadmap Phase 6, Milestones P6-AC-02) and nothing else changed 
+=== C. merged cells, validation, conditional formatting
+PASS | every original merge preserved (Dashboard shifted) | []
+PASS | no unexpected merges (none inside any data table) | []
+PASS | original data-validation rules all preserved | {'Planning Readiness': 1, 'Roadmap': 2, 'Implementation Tracker': 3, 'Tasks': 6, 'Milestones': 3, 'Decisions': 2, 'Blockers': 6, 'Work Log': 3, 'Design Test Suite': 2}
+PASS | original conditional formats preserved (counts) | {'Dashboard': 5, 'Planning Readiness': 2, 'Roadmap': 2, 'Tasks': 3, 'Milestones': 2, 'Decisions': 1, 'Blockers': 2}
+PASS | column widths preserved on original sheets 
+=== D. tables / filters cover every data row
+PASS | every table range covers its data (no data rows below a table) | [('Planning Readiness', 'flt_PlanningReadiness', 'A11:O45', 0), ('Implementation Tracker', 'flt_ImplementationTracker', 'A11:N27', 0), ('Tasks', 'tblTasks', 'A1:U45', 0), ('Milestones', 'tblMilestones', 'A1:K60', 0), ('Decisions', 'tblDecisions', 'A1:L38', 0),
+PASS | original 5 tables extended to include appended rows | {'Tasks': ['A1:U45'], 'Milestones': ['A1:K60'], 'Decisions': ['A1:L38'], 'Blockers': ['A1:O12'], 'Work Log': ['A1:N30']}
+PASS | table ends match the last data row | {'Tasks': ['A1:U45'], 'Milestones': ['A1:K60'], 'Decisions': ['A1:L38'], 'Blockers': ['A1:O12'], 'Work Log': ['A1:N30']}
+=== E. formulas, values and recalculation
+PASS | formula count grew (original formulas kept + new indicators) | (2854, 3169)
+PASS | no error values stored in any cell | []
+PASS | stored formula results equal a forced full recalculation (LibreOffice) for every formula | (0, [])
+=== F. independent recomputation of every headline number
+PASS | 34 planning domains, IDs PD-01..PD-34 
+PASS | planning weights sum to exactly 100% | 1.0
+PASS | every planning % is within 0-100% and a multiple of 5 
+PASS | no domain is 100% / Approved (nothing has owner approval) 
+PASS | planning/programming weights are 50%/50% and sum to 100% | (0.5, 0.5, 'OK — sums to 100%')
+PASS | Planning Readiness C4 == independent weighted result | (0.353, 0.353)
+PASS | Dashboard planning tile == independent result | (0.353, 0.353)
+PASS | 16 implementation groups, weights sum to 100% 
+PASS | every implementation group: status "لم تبدأ", 0%, no evidence, test "Not Run" 
+PASS | programming completion is 0% (no verified implementation exists) | (0.0, 0)
+PASS | overall == planning×50% + programming×50% (independent) | (0.1765, 0.1765)
+PASS | Dashboard planning status counts == independent counts (sum 34) | [('لم يبدأ — No', 2), ('قيد التنفيذ ', 7), ('موثق جزئيًا ', 21), ('جاهز للمراجع', 3), ('معتمد — Appr', 0), ('متوقف — Bloc', 1)]
+PASS | Dashboard total tasks and approved tasks == independent counts | (44, 44, 8)
+PASS | 34 planning tasks PLN-01..PLN-34 (no duplicates), none marked approved 
+PASS | no task is complete without evidence (Flags column empty) 
+PASS | Design Test Suite: 52 total in 7 categories (6,8,8,9,6,7,8) + 3 E2E; nothing executed/passed 
+PASS | Design Test Suite register is empty (no invented cases) 
+PASS | Dashboard authorization shows NOT authorized 
+=== G. IDs, dropdown values, content rules
+PASS | Tasks: IDs unique | 44 ids
+PASS | Milestones: IDs unique | 59 ids
+PASS | Decisions: IDs unique | 37 ids
+PASS | Blockers: IDs unique | 11 ids
+PASS | Work Log: IDs unique | 29 ids
+PASS | Decisions: D-01..D-11, D-13..D-38 present (37), none removed | 37
+PASS | Blockers B-001..B-011 present 
+PASS | Work Log LOG-0001..LOG-0029 
+PASS | Milestones: 40 original + 7 P1-DOC + 12 PLN-MS = 59 | 59
+PASS | every dropdown cell holds a value from its list | []
+PASS | new sheets have dropdowns (status/test status) 
+PASS | rejected scope (monthly calendar, montage preview, Logo Overlay) appears only where reviewed: 6 cells that describe the rejection/conflict | (6, [])
+PASS | rejections recorded as مرفوض: D-29 (calendar), D-33 (preview), D-34 (Logo Overlay), D-35 
+PASS | D-38 (50/50 weighting) is a proposal, not approved; D-12-type open items still open 
+PASS | Phase 0 still closed; Phase 1 قيد التنفيذ; others لم تبدأ (no programming phase started) 
+PASS | Arabic strings intact (sample) 
+=== H. colours / readability
+PASS | exported font colours equal the intended colours (CF-coloured cell L12 excepted) | (351, [('Dashboard', 'L12', '9C0006', 'theme1')])
+PASS | Planning Readiness header: white on navy 
+
+SUMMARY: 64/64 checks passed
