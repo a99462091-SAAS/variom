@@ -72,3 +72,7 @@ Continue with a focused read-only reconciliation of the planning sources in MAX 
 A separate implementation/code audit is not part of this planning-source review and must only be undertaken if the owner later identifies and authorizes its exact target.
 
 **No implementation, merge, provider activation, data migration or paid generation is authorized by this report.**
+
+
+## 6. Historical snapshot and current implementation boundary
+This read-only audit records the repository state at the time it was performed; its suggested next steps are historical and are superseded by the dedicated VARIOM repository, Documents 19–20 and the current Gate B/Gate C records 36–37. It does not identify or authorize the application implementation target. The live Project Tracker is the current status source. No application code, provider activation, paid generation, migration or deployment is authorized.
