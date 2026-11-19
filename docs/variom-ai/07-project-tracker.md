@@ -7,7 +7,7 @@
 | Workstream | Status | Evidence / closure condition |
 |---|---|---|
 | Documentation consistency | Earlier review completed; superseded where newer findings exist | Audit 15; reconcile against audit 18 |
-| Owner input recovery | Partial | Audit 17; canonical identity board, final UI Design Prompt, VARIOM Character questionnaire/sheet remain open |
+| Owner input recovery | Partially closed | Latest refined identity image selected as canonical; owner will supply it and the UI Design Prompt directly to Claude Code; Character questionnaire/Character Sheet adaptation authorized. See VAR-OD-002–004. |
 | Full documentation readiness | NOT READY FOR IMPLEMENTATION | Audit 18; close P0 owner decisions and normative technical contracts |
 | Implementation target | BLOCKED | Owner must identify authorized VARIOM repository/branch or approve a separate repository |
 | Claude Code authority | BLOCKED | Root MAX CLAUDE.md conflicts with VARIOM task context; establish one unambiguous entry point |
@@ -20,10 +20,10 @@
 | Security/privacy/data lifecycle | INCOMPLETE | Adapt MAX working source into normative VARIOM requirements; legal and retention decisions |
 | Provider/capability register | NOT VERIFIED | Current official sources, account/region access, pricing, rights and practical test evidence |
 | Smart Editing | Catalogue recovered; normative contract incomplete | Six tasks and six Motion Graphics categories in audit 17; task-level controls and IO contract required |
-| Virtual Character | Product contract source recovered; VARIOM UX contract incomplete | Exact questionnaire, Character Sheet, validation, consent and versioning |
+| Virtual Character | Source adaptation authorized | Adapt MAX Virtual Character v1.0 into VARIOM questionnaire/Character Sheet; preserve safeguards and define validation, consent and versioning. |
 | Creative library | Candidate policy only | No production-approved style records; P3 mapping IDs remain held; V2 modifiers unresolved |
 | Master Storyboard | Concept specified; contract incomplete | Versioned scene schema, duration allocation, continuity, review and provider constraints |
-| UX/visual design | Partial | Canonical board, separate UI Design Prompt, field-level validation and component/state specs |
+| UX/visual design | Owner inputs identified | Latest refined identity image is canonical and will be supplied by owner; UI Design Prompt will also be supplied by owner. Field-level validation and component/state specifications remain documentation work. |
 | Test strategy and traceability | INCOMPLETE | Map every requirement/contract to unit, integration, E2E, security, RTL/accessibility and manual tests |
 | Operations and deployment | NOT STARTED | Environments, secrets, jobs, monitoring, backup/restore, incident response and launch gates |
 | Production readiness | NOT STARTED | Legal, provider, cost, security, operations and owner acceptance |
@@ -39,10 +39,13 @@ Document 17 recovers the Smart Editing task catalogue, identity board variants a
 - Repository target established: `a99462091-SAAS/variom`; MAX remains source/reference only. See document 19 and decision `VAR-D-001`.
 - Working branch: `work/variom-documentation-readiness`.
 - Document 19 establishes the VARIOM authority hierarchy, source-adoption rules, execution boundaries and stop conditions.
-- Document 20 establishes the canonical Product Decisions Register: 4 confirmed owner decisions, 1 presentation-only decision, 9 open owner decisions and 4 deferred evidence/legal/technical items.
-- VAR-OD-001 is resolved for presentation only: Starter / Pro / Agency = 1 / 3 / up to 8 brands. The commercial model remains unapproved; do not price, bill, grant entitlements or enforce brand limits.
+- Document 20 establishes the canonical Product Decisions Register: 4 baseline confirmed decisions, 9 resolved owner decisions (including the presentation-only plan convention), 1 partially resolved market/commercial decision, and 4 deferred evidence/legal/technical items.
+- VAR-OD-001 is resolved for presentation only: Starter / Pro / Agency = 1 / 3 / up to 8 brands. Do not price, bill, grant entitlements or enforce brand limits.
+- VAR-OD-002 and VAR-OD-003: owner will provide the latest refined identity image and UI Design Prompt directly to Claude Code; no replacement prompt is authorized.
+- VAR-OD-004 through VAR-OD-006 and VAR-OD-008 through VAR-OD-010: recommendations approved within the limits and deferred details recorded in Document 20.
+- VAR-OD-007: limited-market launch strategy approved; exact first market and commercial/legal terms remain open.
 - Root `CLAUDE.md` is VARIOM-specific; no MAX root instructions are inherited.
 
 ## Next action
 
-Continue Gate A by obtaining owner resolutions for the remaining open product decisions, beginning with VAR-OD-002 (canonical identity-board variant). Technical/provider/legal choices remain deferred until their evidence gates. No application implementation, provider activation, paid generation, database migration, merge or deployment is authorized.
+Gate A owner direction is substantially recorded. VAR-OD-007 remains partially open only for naming the exact first launch market; commercial terms, legal details and provider-dependent choices remain deferred to their evidence gates. Proceed with Gate B documentation planning only; no application implementation, provider activation, paid generation, database migration, merge or deployment is authorized.
