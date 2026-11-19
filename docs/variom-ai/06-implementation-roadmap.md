@@ -1,6 +1,6 @@
 # VARIOM — Implementation Roadmap
 
-**Status:** Initial roadmap. This is a planning baseline, not blanket implementation authorization.
+**Status:** High-level planning baseline subordinate to Documents 00, 19–20 and normative contracts 22–35. Gate B and Gate C documentation reviews are complete (Documents 36–37). This roadmap does not authorize application implementation.
 **Source:** VARIOM Product Vision V2.0. Current repository state must be verified during Stage 0 before implementation planning is treated as executable.
 
 ## Principles
