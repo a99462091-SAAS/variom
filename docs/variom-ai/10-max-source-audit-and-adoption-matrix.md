@@ -1,7 +1,7 @@
 # VARIOM — MAX Source Audit and Adoption Matrix
 
 **Updated:** 2026-11-19  
-**Status:** Read-only repository/source audit; first-pass adoption guidance. No product implementation or data import authorized.
+**Status:** Historical read-only source audit; first-pass adoption guidance. Current VARIOM owner decisions and adoption status are controlled by Documents 19–20, 33 and the Project Tracker. No product implementation or data import authorized.
 
 ## 1. Executive decision
 
@@ -135,7 +135,7 @@ The root VARIOM.md is a working transformation baseline, not a substitute for th
 - It describes a 9-primary-tools + 15-More-Tools navigation as already approved. The later owner clarification says that this navigation proposal is not a final approved decision. Keep the exact tool mapping open; do not implement the 9+15 structure.
 - It says the P1–P4 and V1–V4 definitions must not be renamed or invented because they are not supplied. The current V2.0 source baseline now defines the VARIOM categories; use those definitions, not the older unresolved wording.
 - It records a 10/20/30/40 vs 10/20/30 duration discrepancy and defers resolution. The current VARIOM V2.0/V2.1 baseline sets Video Studio to 10/20/30 seconds and monthly video to a maximum of 10 seconds.
-- It records future plan names Starter/Pro/Agency. The latest owner decision names Basic (1 brand), Pro (3 brands), and Agency (up to 8 brands); plan information remains hidden in the current interface and this does not authorize billing/subscription implementation.
+- It records older plan presentation assumptions. The superseding owner decision VAR-OD-001 is Starter / Pro / Agency = 1 / 3 / up to 8 brands for non-binding presentation only; no pricing, billing, subscription, entitlement or enforcement is approved.
 - Its CREWZO repository audit and test/provider findings are dated working observations, not current implementation evidence. Recheck the live local checkout before making implementation claims.
 
 ## 8. Archive and branch preservation status
@@ -147,12 +147,7 @@ The root VARIOM.md is a working transformation baseline, not a substitute for th
 
 ## 9. Next steps
 
-1. Resolve the P3-013…P3-018 owner decision.
-2. Resolve V2-016/V2-017 style-vs-modifier decision.
-3. Review the V4 reclassification proposal.
-4. Confirm the minimum VARIOM style set required for V1; do not attempt to complete all 144 merely because MAX has them.
-5. After owner decisions, perform field-level QA on retained records, finalize VARIOM schema and build representative tests.
-6. Resolve the missing binary workbook in the documentation branch before any merge.
+Historical next-step list: these MAX candidate decisions are not prerequisites to unrelated VARIOM documentation work. Any retained style requires a separate current VARIOM review, approval, rights/claim verification and real provider testing under Document 33. No candidate import is approved by this audit.
 
 ## 10. Audit boundary
 
@@ -161,3 +156,7 @@ This is a read-only source/documentation audit. It did not inspect the binary wo
 
 ## 11. Detailed creative-card audit
 The 144-card structural/editorial risk review is documented in [12 — Creative Style Field-Level Audit](12-creative-style-field-level-audit.md). It confirms structural consistency and valid alternative IDs, while identifying weak video family metadata, unmeasured video feasibility/cost, reference/evidence gaps and owner decisions. It authorizes no production import.
+
+
+## 12. Current-status precedence
+This audit remains evidence about the specific MAX branches and commits inspected at the time. Its historical next-step list and older plan assumptions are superseded by Documents 19–20 and 33–37. Do not treat this audit as a current VARIOM task list or owner-decision register.
