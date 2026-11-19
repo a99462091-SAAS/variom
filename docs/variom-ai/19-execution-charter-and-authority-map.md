@@ -92,10 +92,13 @@ Do not label the package READY FOR IMPLEMENTATION until the objective criteria i
 - Product Vision V2.0 remains the controlling product baseline; UX V2.1 is subordinate.
 - This phase is documentation-only.
 
-**Open**
-- Whether this working branch is to be merged into `main` after documentation acceptance.
-- Final product/commercial plan naming and limits.
-- Final canonical identity-board selection and UI Design Prompt path.
-- VARIOM-specific Virtual Character questionnaire/Character Sheet source or adaptation approval.
-- Remaining workflow, output, legal, retention and commercial decisions listed in the Product Decisions Register.
+**Open or deferred**
+- Whether this documentation working branch is to be merged into `main` after documentation acceptance.
+- Exact first launch market under VAR-OD-007; pricing, subscriptions, payment, tax and enforceable entitlements remain deferred.
+- Provider/model selection, region, capabilities, costs, rights and data terms pending evidence and separate approval.
+- Provider-specific output dimensions/formats/quality and exact voice/dialect catalogue pending capability verification.
+- Retention periods, legal wording and jurisdiction-specific obligations pending legal review.
+- Hosting, database, object storage, KMS and backup topology pending technical/cost/security review.
+- Owner-supplied identity image and UI Design Prompt must be provided directly to Claude Code before visual implementation; neither may be reconstructed or replaced.
+- Separate application implementation repository/branch and implementation authorization are not established by the documentation repository.
 
