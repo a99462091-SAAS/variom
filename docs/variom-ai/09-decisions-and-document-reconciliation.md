@@ -1,6 +1,6 @@
 # VARIOM — Decisions, Open Items & MAX Document Reconciliation
 
-**Date:** 2026-11-19. **Status:** Initial reconciliation baseline.
+**Date:** 2026-11-19. **Status:** Historical reconciliation snapshot. Current decisions and open/deferred status are controlled by Documents 19–20 and the live Project Tracker.
 
 ## 1. Approved VARIOM constraints
 V2.0 controls: four product systems; no Product Catalog; eight monthly goals; up to three goals (one primary, two supporting); 8/12/16 monthly posts; monthly images/videos only; no monthly carousel/platform selection; monthly video <=10 seconds; Video Studio 10/20/30 seconds; P1–P4 and V1–V4; Arabic/English RTL/LTR; real cost before execution; real credit lifecycle; automatic library save; repository-approved Simple Smart Editing only.
@@ -49,14 +49,7 @@ V2.0 controls: four product systems; no Product Catalog; eight monthly goals; up
 | Lead Magnet, Trend Finder, Reels Planner, Swap, Speech Edit | Deferred/legacy | Preserve code; no VARIOM V1 UX assumption |
 
 ## 5. Open items
-- Verify exact approved Simple Smart Editing list in the current local repository.
-- Obtain/locate separate final UI Design Prompt and original visual identity image.
-- Obtain approved Virtual Character questionnaire and Character Sheet.
-- Map existing routes/tools to VARIOM workflows.
-- Reconcile creative JSON/schema records with VARIOM categories.
-- Verify real provider states and AI capabilities.
-- Reconcile documentation against Claude's current local audit.
-- Review whether root CLAUDE.md and README.md should be updated.
+The original open-item list above is a historical snapshot and is superseded as follows: the six Smart Editing tasks are recorded in Document 31; the owner-selected identity image and UI Design Prompt are supplied directly to Claude Code (Documents 05/20/29); the Virtual Character contract is adapted in Document 32; normative workflow/API/domain contracts are Documents 23–25; and current provider/style evidence remains explicitly gated in Documents 28 and 33. The application route/code mapping remains future work in a separately authorized application repository.
 
 ## 6. Authority
 This reconciliation does not authorize provider activation, billing, migrations, destructive cleanup, deployment, or implementation of the 19-screen UX. Owner review is required before merge or execution.
@@ -82,3 +75,7 @@ A first-pass mapping for all 144 MAX style IDs is documented in [11 — Creative
 
 ## 10. Root VARIOM.md reconciliation
 The root VARIOM.md is a working transformation baseline and useful context, but it is not a substitute for the controlling V2.0/V2.1 source documents. The updated [10 — MAX Source Audit and Adoption Matrix](10-max-source-audit-and-adoption-matrix.md) records its conflicts: the 9+15 navigation proposal, unresolved category definitions, old video-duration discrepancy, older plan naming, and dated CREWZO implementation observations. Do not implement those statements without reconciliation against current owner-approved decisions.
+
+
+## 11. Supersession and current references
+This document preserves the original MAX reconciliation history. Do not use its historical open-item list as current status. For current authority, use Documents 19–20; for normative product and system behavior, use Documents 00, 22–35; for Gate B/Gate C outcomes, use Documents 36–37; and for current progress, use Document 07. The owner-selected plan presentation is Starter / Pro / Agency = 1 / 3 / up to 8, non-binding only (VAR-OD-001).
