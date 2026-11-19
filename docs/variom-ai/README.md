@@ -25,6 +25,8 @@ MAX planning documents are the source foundation for reusable planning material,
 16 Repository Technical Baseline Audit
 17 Owner Input and Source Recovery Audit
 18 Full Documentation Readiness Audit
+19 Execution Charter & Authority Map
+20 Product Decisions Register
 
 **Documentation consistency:** document 15 is the earlier consistency review and is superseded where newer source recovery or the full readiness audit in document 18 records a later result.
 
