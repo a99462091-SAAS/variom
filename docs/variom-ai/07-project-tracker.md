@@ -9,8 +9,9 @@
 | Documentation consistency | Earlier review completed; superseded where newer findings exist | Audit 15; reconcile against audit 18 |
 | Owner input recovery | Partially closed | Latest refined identity image selected as canonical; owner will supply it and the UI Design Prompt directly to Claude Code; Character questionnaire/Character Sheet adaptation authorized. See VAR-OD-002–004. |
 | Full documentation readiness | NOT READY FOR IMPLEMENTATION | Audit 18; close P0 owner decisions and normative technical contracts |
-| Implementation target | BLOCKED | Owner must identify authorized VARIOM repository/branch or approve a separate repository |
-| Claude Code authority | BLOCKED | Root MAX CLAUDE.md conflicts with VARIOM task context; establish one unambiguous entry point |
+| Documentation target | ESTABLISHED | Dedicated repository `a99462091-SAAS/variom`, working branch `work/variom-documentation-readiness` |
+| Application implementation target | NOT ESTABLISHED / NOT AUTHORIZED | Separate application repository/branch and implementation authorization are still required before code work |
+| Claude Code authority | ESTABLISHED FOR DOCUMENTATION WORK | Root `CLAUDE.md` is VARIOM-specific; document 19 defines authority and stop conditions. Application implementation remains unauthorized |
 | Product/commercial plans | PRESENTATION CONVENTION RESOLVED; COMMERCIAL MODEL DEFERRED | Starter / Pro / Agency shown as 1 / 3 / up to 8 brands for non-binding presentation only; no pricing, subscriptions, entitlements or enforcement approved. See VAR-OD-001. |
 | Functional requirements and acceptance | INCOMPLETE | Requirement IDs, preconditions, outputs, failure behavior and acceptance evidence per workflow |
 | Domain model and data dictionary | INCOMPLETE | Entities, relations, ownership, versions, retention and lifecycle |
@@ -46,6 +47,13 @@ Document 17 recovers the Smart Editing task catalogue, identity board variants a
 - VAR-OD-007: limited-market launch strategy approved; exact first market and commercial/legal terms remain open.
 - Root `CLAUDE.md` is VARIOM-specific; no MAX root instructions are inherited.
 
+## Gate B progress
+
+- Gate A owner direction is substantially recorded. VAR-OD-007 remains partially open only for naming the exact first launch market; commercial terms, legal details and provider-dependent choices remain deferred.
+- Document 21 is the active Gate B plan: 14 normative contracts, dependency order, evidence gates and Gate B exit criteria.
+- Immediate authoring sequence: B-01 Functional Requirements & Acceptance Catalogue, then B-02 Domain Model & Data Dictionary, then B-03 Workflow & Job State Machines.
+- Application implementation target/stack remains unestablished and unauthorized. No application code, provider activation, paid generation, database migration, merge or deployment is authorized.
+
 ## Next action
 
-Gate A owner direction is substantially recorded. VAR-OD-007 remains partially open only for naming the exact first launch market; commercial terms, legal details and provider-dependent choices remain deferred to their evidence gates. Proceed with Gate B documentation planning only; no application implementation, provider activation, paid generation, database migration, merge or deployment is authorized.
+Author B-01 as the first normative contract, deriving stable requirement IDs and testable acceptance criteria from Product Vision V2.0, UX V2.1 and the Product Decisions Register.
