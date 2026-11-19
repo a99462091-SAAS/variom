@@ -2,7 +2,7 @@
 
 **Version:** 0.1  
 **Date:** 2026-11-19  
-**Status:** NORMATIVE DRAFT — Gate B; subject to cross-contract review  
+**Status:** NORMATIVE DOMAIN CONTRACT — technology-neutral; cross-contract review recorded in Document 36 and Gate C in Document 37  
 **Authority:** Documents 19–22; Product Vision V2.0 controls product scope; UX/Frontend V2.1 controls subordinate screen behavior.  
 **Branch:** `work/variom-documentation-readiness`  
 **Related contracts:** 21 Gate B Plan; 22 Functional Requirements & Acceptance Catalogue.
@@ -17,7 +17,7 @@ Normative terms:
 - **MUST**: required domain invariant.
 - **MUST NOT**: prohibited behavior.
 - **DEFERRED**: no implementation assumption until the stated evidence or owner/legal gate.
-- **TBD in specialist contract**: the concept is established, but its exact fields or transitions belong in B-03 through B-14.
+- **DEFERRED**: the concept is established; the owning specialist contract either defines the behavior or records the specific external evidence/owner gate required before implementation.
 
 ## 2. Domain-wide invariants
 
@@ -126,7 +126,7 @@ No entity may rely on a client-provided brand name or account identifier as its 
 - Image Studio supports P1–P4; Video Studio supports V1–V4 and exactly 10/20/30-second product-level duration choices.
 - A Video Storyboard is mandatory before video generation. Scene review is optional; if exposed, the user-facing editable content remains limited to approved scene description and dialogue/text.
 - Smart Editing remains task-based. Its recovered six tasks and six Motion Graphics categories are recorded in B-10; only verified executable capabilities may be offered. Original input media is preserved and the edited result is a separate output.
-- Exact scene schema, time allocation rules, provider handoff and task transitions are specified in B-03/B-09/B-10.
+- Exact scene schema, time allocation rules and provider handoff are specified in Documents 24 and 30; shared task transitions are specified in Document 24.
 
 ### 4.5 Jobs, attempts and outputs
 
@@ -282,7 +282,7 @@ The following are intentionally not part of the VARIOM domain model:
 | DM-OPEN-09 | Exact API identifiers, database types, indexing and storage topology | B-04 and later technical architecture, not this conceptual contract |
 | DM-OPEN-10 | Whether account-level deletion/security records require specific legal retention | Legal review before production/launch; minimize and separate retained records |
 
-No open item above blocks the technology-neutral conceptual model. Each must be resolved or explicitly gated in its owning specialist contract before implementation.
+No open item above blocks the technology-neutral conceptual model. Each is either defined in its owning specialist contract (Documents 24–35) or explicitly recorded as deferred in Documents 20, 28, 35 and 37. Do not leave a TBD field to be guessed during implementation.
 
 ## 11. Acceptance criteria for this contract
 
