@@ -30,3 +30,4 @@ A screen is not proof of a working workflow. Report UI, API, persistence, worker
 
 ## 8. Exclusions
 Product Catalog; monthly publishing calendar; scheduling/publishing; social integration; analytics; approvals; teams/agency workflows; ZIP; professional timeline editor; separate advanced audio controls; 4K; unapproved formats/categories/durations; unapproved paid edit loops.
+\n\n## 9. Normative contract and readiness references\nThis system-level summary is subordinate to Product Vision V2.0 and must be read with the normative contracts in Documents 22–35. Document 36 records Gate B coherence; Document 37 records Gate C documentation/evidence readiness. Any behavior not defined by the product vision or its owning contract remains unavailable or explicitly deferred; do not infer provider capability, commercial rules or infrastructure.\n
