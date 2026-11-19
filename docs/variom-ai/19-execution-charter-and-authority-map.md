@@ -1,7 +1,7 @@
 # VARIOM — Execution Charter & Authority Map
 
 **Version:** 1.0  
-**Status:** Initial governance baseline; owner confirmation required only where explicitly marked OPEN.  
+**Status:** Active VARIOM execution charter. Owner decisions and current deferred items are recorded in Document 20; progress is recorded in Document 07.  
 **Last updated:** 2026-11-19
 
 ## 1. Purpose
@@ -85,6 +85,8 @@ Archived copies under `docs/variom-ai/archive/max/` are preserved for provenance
 Do not label the package READY FOR IMPLEMENTATION until the objective criteria in document 18 are met. Stage-specific work may remain explicitly blocked where provider, legal, hosting or account evidence is unavailable.
 
 ## 8. Confirmed and open governance facts
+
+Current Gate B and Gate C results are recorded in Documents 36 and 37. Gate C confirms documentation integrity and safe entry boundaries only; it does not authorize application implementation. The application repository/branch remains to be separately identified and authorized.
 
 **Confirmed**
 - The implementation/documentation home is the separate `a99462091-SAAS/variom` repository.
