@@ -131,4 +131,7 @@ Use verified provider costs and actual consumption. Protect margin through evide
 
 ## 18. Authority and change control
 This V2.0 document is the product authority. UX/frontend implementation is subordinate. Architecture cannot silently change product behavior. New categories, workflows, commercial rules or excluded features require explicit owner approval.
-\n\n## 19. Later owner-decision reconciliation\nThis V2.0 repository copy preserves the approved product vision while explicitly reconciling later owner decisions recorded in Document 20. Where a later explicit owner decision supersedes a specific older clause, the decision register controls that narrow point; all other product scope remains governed by this document. In particular, VAR-OD-001 supersedes the legacy plan labels/counts in §12 for presentation only. VAR-OD-002/003 require the owner to supply the canonical identity image and UI Design Prompt directly to Claude Code; this document does not replace those inputs.\n
+
+
+## 19. Later owner-decision reconciliation
+This V2.0 repository copy preserves the approved product vision while explicitly reconciling later owner decisions recorded in Document 20. Where a later explicit owner decision supersedes a specific older clause, the decision register controls that narrow point; all other product scope remains governed by this document. In particular, VAR-OD-001 supersedes the legacy plan labels/counts in §12 for presentation only. VAR-OD-002/003 require the owner to supply the canonical identity image and UI Design Prompt directly to Claude Code; this document does not replace those inputs.
