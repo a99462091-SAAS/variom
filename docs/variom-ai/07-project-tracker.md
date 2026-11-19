@@ -13,7 +13,7 @@
 | Application implementation target | NOT ESTABLISHED / NOT AUTHORIZED | Separate application repository/branch and implementation authorization are still required before code work |
 | Claude Code authority | ESTABLISHED FOR DOCUMENTATION WORK | Root `CLAUDE.md` is VARIOM-specific; document 19 defines authority and stop conditions. Application implementation remains unauthorized |
 | Product/commercial plans | PRESENTATION CONVENTION RESOLVED; COMMERCIAL MODEL DEFERRED | Starter / Pro / Agency shown as 1 / 3 / up to 8 brands for non-binding presentation only; no pricing, subscriptions, entitlements or enforcement approved. See VAR-OD-001. |
-| Functional requirements and acceptance | INCOMPLETE | Requirement IDs, preconditions, outputs, failure behavior and acceptance evidence per workflow |
+| Functional requirements and acceptance | BASELINE CREATED — SPECIALIST REFINEMENT REQUIRED | Document 22 establishes stable requirement IDs and product-level acceptance evidence for all 19 screens/workflows; detailed contracts and failure-state expansion continue in B-02–B-13 |
 | Domain model and data dictionary | INCOMPLETE | Entities, relations, ownership, versions, retention and lifecycle |
 | API and schema contracts | INCOMPLETE | Request/response/error contracts and authorization |
 | Job/workflow state machines | INCOMPLETE | Monthly, image, video/storyboard, editing, character, credits and recovery |
@@ -51,9 +51,10 @@ Document 17 recovers the Smart Editing task catalogue, identity board variants a
 
 - Gate A owner direction is substantially recorded. VAR-OD-007 remains partially open only for naming the exact first launch market; commercial terms, legal details and provider-dependent choices remain deferred.
 - Document 21 is the active Gate B plan: 14 normative contracts, dependency order, evidence gates and Gate B exit criteria.
+- Document 22 is the first normative requirements baseline, covering product-wide invariants, all 19 screens, workflow scope, exclusions and deferred decisions. It is not implementation authorization.
 - Immediate authoring sequence: B-01 Functional Requirements & Acceptance Catalogue, then B-02 Domain Model & Data Dictionary, then B-03 Workflow & Job State Machines.
 - Application implementation target/stack remains unestablished and unauthorized. No application code, provider activation, paid generation, database migration, merge or deployment is authorized.
 
 ## Next action
 
-Author B-01 as the first normative contract, deriving stable requirement IDs and testable acceptance criteria from Product Vision V2.0, UX V2.1 and the Product Decisions Register.
+Continue B-02 Domain Model & Data Dictionary, deriving entities and ownership from Document 22. Then define B-03 Workflow & Job State Machines before technology-neutral API/schema contracts. Review Document 22 during these steps and refine acceptance criteria only where the domain/state contracts require it.
