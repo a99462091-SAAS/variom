@@ -1,7 +1,7 @@
 # VARIOM — Project Tracker
 
 **Last updated:** 2026-11-19.  
-**Status:** Product-planning baseline documented; full documentation readiness audit completed with result NOT READY FOR IMPLEMENTATION.  
+**Status:** Documentation Readiness phase active on `work/variom-documentation-readiness`; implementation remains NOT AUTHORIZED.  
 **Important:** No MAX phase, percentage, task state, acceptance or test result is inherited.
 
 | Workstream | Status | Evidence / closure condition |
@@ -34,6 +34,14 @@ Product Vision V2.0 is the controlling product authority; UX/Frontend V2.1 is su
 
 Document 17 recovers the Smart Editing task catalogue, identity board variants and MAX Virtual Character product-contract source. Document 18 is the latest full readiness assessment and records the remaining implementation blockers and required normative documents.
 
+## Current documentation-readiness progress
+
+- Repository target established: `a99462091-SAAS/variom`; MAX remains source/reference only. See document 19 and decision `VAR-D-001`.
+- Working branch: `work/variom-documentation-readiness`.
+- Document 19 establishes the VARIOM authority hierarchy, source-adoption rules, execution boundaries and stop conditions.
+- Document 20 establishes the canonical Product Decisions Register: 4 confirmed owner decisions, 10 open owner decisions and 4 deferred evidence/legal/technical items.
+- Root `CLAUDE.md` is VARIOM-specific; no MAX root instructions are inherited.
+
 ## Next action
 
-Complete Gate A in audit 18: establish the implementation target and Claude Code instruction hierarchy; resolve the product/commercial plan conflict; decide the canonical identity reference and UI prompt path; decide how to close the VARIOM Character questionnaire/Character Sheet; and confirm which format/distribution decisions are to be fixed now versus gated on provider evidence. No implementation, provider activation or paid generation is authorized yet.
+Continue Gate A by obtaining owner resolutions for the open product decisions, beginning with the plan names/brand limits and hidden-plan behavior. Technical/provider/legal choices remain deferred until their evidence gates. No application implementation, provider activation, paid generation, database migration, merge or deployment is authorized.
