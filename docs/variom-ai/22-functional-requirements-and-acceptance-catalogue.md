@@ -2,7 +2,7 @@
 
 **Version:** 1.0  
 **Date:** 2026-11-19  
-**Status:** NORMATIVE BASELINE — Gate B draft; owner/product scope is controlled by Documents 00 and 20  
+**Status:** NORMATIVE REQUIREMENTS BASELINE — Gate B authored; cross-document and Gate C status recorded in Documents 36–37. Product scope is controlled by Documents 00 and 20  
 **Authority:** Subordinate to Product Vision V2.0; screen behavior is aligned with UX/Frontend V2.1.  
 **Related plan:** Document 21, Gate B Normative Contract Plan.
 
@@ -13,7 +13,7 @@ This catalogue assigns stable requirement IDs to observable VARIOM product behav
 - **MUST** means required for the defined product behavior.
 - **MUST NOT** means explicitly excluded or prohibited.
 - **DEFERRED** means no implementation assumption may be made until the stated evidence/decision gate is satisfied.
-- **VERIFY** means the product intent exists, but the exact contract must be completed in a linked specialist specification before implementation.
+- **VERIFY** means implementation evidence is required before claiming the requirement works. The normative behavior is defined in the linked specialist contract; mocks or document presence do not satisfy verification.
 - Acceptance is based on observable behavior and evidence, not merely the presence of a UI screen or mock.
 
 ## 2. Product-wide requirements
@@ -74,7 +74,7 @@ This catalogue assigns stable requirement IDs to observable VARIOM product behav
 | VAR-FR-407 | Template review MUST show content type, illustrative reference image, idea and copy/dialogue where applicable. Reference imagery MUST be labeled illustrative and MUST NOT be presented as generated output. | UI/content test confirms labels and semantic distinction. |
 | VAR-FR-408 | During template review, only the idea and copy/dialogue fields are editable. | Attempted edits to other fields are unavailable/rejected. |
 | VAR-FR-409 | Monthly Content MUST NOT ask the user to select a publishing platform. | Screen and API contract contain no platform-selection requirement. |
-| VAR-FR-410 | Monthly image/video distribution MUST be intelligent and may be user-adjustable only within behavior defined by a future approved contract. Fixed ratios/counts remain deferred. | Contract/test verifies only explicitly supported adjustment; no invented fixed ratio. |
+| VAR-FR-410 | Monthly image/video distribution MUST use an intelligent system-selected distribution. No user-facing adjustment control is required in the initial implementation until an explicit behavior is approved; fixed ratios/counts and adjustment semantics remain deferred. | Contract/test verifies only explicitly supported adjustment; no invented fixed ratio. |
 | VAR-FR-411 | Monthly image size choices MUST remain Instagram Portrait or Instagram Landscape. | Validation accepts only these product-level options. |
 | VAR-FR-412 | Monthly video size choices MUST remain Reels Portrait or Reels Landscape Video. | Validation accepts only these product-level options. |
 | VAR-FR-413 | Monthly videos MUST NOT exceed 10 seconds each. | Request validation and generated-output metadata checks reject/flag over-limit output. |
@@ -187,6 +187,6 @@ The following are intentionally not specified by this catalogue:
 
 ## 15. Gate B completion status
 
-This is the first normative requirements baseline, not a declaration of complete implementation readiness. The following specialist contracts remain required: B-02 Domain Model, B-03 State Machines, B-04 API/Schema, B-05 Credits, B-06 Security/Privacy, B-07 Provider Evidence, B-08 UX Interaction, B-09 Storyboard, B-10 Smart Editing, B-11 Character, B-12 Creative Registry, B-13 Test Traceability and B-14 Operations/Release.
+The B-01 requirements catalogue is authored and linked to the specialist contracts B-02–B-14 (Documents 23–35). Gate B coherence is recorded in Document 36 and Gate C evidence/readiness in Document 37. Requirement implementation evidence remains future work and is not implied by this documentation status.
 
 No application implementation is authorized by this catalogue.
