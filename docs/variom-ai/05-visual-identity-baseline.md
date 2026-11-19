@@ -1,6 +1,6 @@
 # VARIOM — Visual Identity Baseline
 
-**Status:** Identity direction, color tokens and typography are recorded. Three similar owner-library identity boards have been located; the owner has not explicitly selected one as the canonical final board. The separate final UI Design Prompt remains an open input. See document 17 for source-recovery details.
+**Status:** The owner selected the latest refined VARIOM identity image (the version containing the best improvements) as the canonical visual reference on 2026-11-19. The owner will provide that image directly to Claude Code. The separate UI Design Prompt will also be supplied directly by the owner; no substitute prompt is authorized.
 
 ## Product identity
 VARIOM — Create Beyond the Ordinary. Visual symbol: jellyfish, based on the owner-approved identity direction and located Library boards.
@@ -21,4 +21,4 @@ Sora for headings; Inter for English interface/body; IBM Plex Sans Arabic for Ar
 ## Visual direction
 Modern, clean, professional, ocean-inspired. Restrained glass effects and subtle cyan glow. Avoid excessive glow, dense 3D cards and unrelated neon-green/fintech styling.
 
-The located boards are visual identity references, not final screen designs or a substitute for the separate UI Design Prompt. Do not infer a canonical logo variant, invent additional tokens or motifs, or reconstruct the missing UI prompt. Final visual styling acceptance remains open until the owner identifies the canonical board (or confirms the variants are not final) and the separate UI Design Prompt is recovered or replaced with explicit owner authorization.
+The three previously recovered boards remain historical/source-recovery evidence; they do not override the latest owner-selected image. Claude Code must use the latest refined image supplied by the owner as the canonical reference, and must use the UI Design Prompt supplied by the owner. Do not infer additional logo variants, invent tokens or motifs, or reconstruct/replace the UI Design Prompt. Until those owner-supplied inputs are available in the execution context, visual implementation must not begin.
