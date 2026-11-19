@@ -47,13 +47,13 @@ Document 17 recovers the Smart Editing task catalogue, identity board variants a
 - VAR-OD-007: limited-market launch strategy approved; exact first market and commercial/legal terms remain open.
 - Root `CLAUDE.md` is VARIOM-specific; no MAX root instructions are inherited.
 
-## Gate B progress
+## Gate B and Gate C progress
 
 - Gate A owner direction is substantially recorded. VAR-OD-007 remains partially open only for naming the exact first launch market; commercial terms, legal details and provider-dependent choices remain deferred.
 - Document 21 is the active Gate B plan: 14 normative contracts, dependency order, evidence gates and Gate B exit criteria.
 - Document 22 is the normative requirements baseline, covering product-wide invariants, all 19 screens, workflow scope, exclusions and deferred decisions. It is not implementation authorization.
-- Document 23 is the first technology-neutral Domain Model & Data Dictionary draft, derived from Document 22 and the approved owner decisions. It deliberately leaves database, ORM, provider and infrastructure choices open; it requires review against B-03 through B-06.
-- Documents 22–35 now cover all 14 planned normative contracts B-01–B-14. Document 36 records two simplification/cohesion passes, cross-contract coverage, reconciliations and explicit deferred gates. Gate B documentation-authoring result: PASS; this is not production readiness or implementation authorization.
+- Document 23 is the technology-neutral Domain Model & Data Dictionary contract. Its ownership, lifecycle, versioning and data boundaries are linked to Documents 24–27; database, ORM, provider and infrastructure choices remain deliberately deferred.
+- Documents 22–35 cover all 14 planned normative contracts B-01–B-14. Document 36 records the Gate B coherence review; Document 37 records independent Gate C verification of repository presence, cross-links, stale-status cleanup, traceability and implementation-entry safety. Gate C closes documentation integrity only; it does not authorize implementation or claim production readiness.
 - Application implementation target/stack remains unestablished and unauthorized. No application code, provider activation, paid generation, database migration, merge or deployment is authorized.
 
 ## Next action
