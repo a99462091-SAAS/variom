@@ -109,3 +109,7 @@ This audit is committed only to `work/variom-ai-documentation`. It does not merg
 - **Provider, cost, security and production readiness:** NOT VERIFIED / NOT STARTED.
 
 **Next action:** obtain the missing owner-supplied source references where available, then conduct a separate read-only repository baseline audit. Do not begin UI implementation, provider activation, data migration or paid generation on the strength of this documentation audit alone.
+
+
+## 9. Historical status and supersession
+This audit is a historical snapshot from before the later owner decisions and the Gate B/Gate C contract set. Its open-item statements about the exact Smart Editing catalogue, Virtual Character contract, canonical identity image and UI Design Prompt are superseded by Documents 20, 05, 31 and 32. Its statement that the original V2.0 conversation source is not verbatim remains accurate: the current Product Vision is a structured consolidation, not a verbatim transcript. Current documentation status is recorded in Documents 36–37 and Project Tracker 07.
