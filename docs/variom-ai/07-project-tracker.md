@@ -14,7 +14,7 @@
 | Claude Code authority | ESTABLISHED FOR DOCUMENTATION WORK | Root `CLAUDE.md` is VARIOM-specific; document 19 defines authority and stop conditions. Application implementation remains unauthorized |
 | Product/commercial plans | PRESENTATION CONVENTION RESOLVED; COMMERCIAL MODEL DEFERRED | Starter / Pro / Agency shown as 1 / 3 / up to 8 brands for non-binding presentation only; no pricing, subscriptions, entitlements or enforcement approved. See VAR-OD-001. |
 | Functional requirements and acceptance | BASELINE CREATED — SPECIALIST REFINEMENT REQUIRED | Document 22 establishes stable requirement IDs and product-level acceptance evidence for all 19 screens/workflows; detailed contracts and failure-state expansion continue in B-02–B-13 |
-| Domain model and data dictionary | INCOMPLETE | Entities, relations, ownership, versions, retention and lifecycle |
+| Domain model and data dictionary | DRAFT CREATED — REVIEW REQUIRED | Document 23 defines conceptual entities, ownership, relationships, versioning, provenance, deletion and privacy classifications; cross-contract validation remains open |
 | API and schema contracts | INCOMPLETE | Request/response/error contracts and authorization |
 | Job/workflow state machines | INCOMPLETE | Monthly, image, video/storyboard, editing, character, credits and recovery |
 | Credit/commercial rules | INCOMPLETE | Quote/hold/settle/release/refund, idempotency, rounding, failure and payment boundary |
@@ -51,10 +51,11 @@ Document 17 recovers the Smart Editing task catalogue, identity board variants a
 
 - Gate A owner direction is substantially recorded. VAR-OD-007 remains partially open only for naming the exact first launch market; commercial terms, legal details and provider-dependent choices remain deferred.
 - Document 21 is the active Gate B plan: 14 normative contracts, dependency order, evidence gates and Gate B exit criteria.
-- Document 22 is the first normative requirements baseline, covering product-wide invariants, all 19 screens, workflow scope, exclusions and deferred decisions. It is not implementation authorization.
+- Document 22 is the normative requirements baseline, covering product-wide invariants, all 19 screens, workflow scope, exclusions and deferred decisions. It is not implementation authorization.
+- Document 23 is the first technology-neutral Domain Model & Data Dictionary draft, derived from Document 22 and the approved owner decisions. It deliberately leaves database, ORM, provider and infrastructure choices open; it requires review against B-03 through B-06.
 - Immediate authoring sequence: B-01 Functional Requirements & Acceptance Catalogue, then B-02 Domain Model & Data Dictionary, then B-03 Workflow & Job State Machines.
 - Application implementation target/stack remains unestablished and unauthorized. No application code, provider activation, paid generation, database migration, merge or deployment is authorized.
 
 ## Next action
 
-Continue B-02 Domain Model & Data Dictionary, deriving entities and ownership from Document 22. Then define B-03 Workflow & Job State Machines before technology-neutral API/schema contracts. Review Document 22 during these steps and refine acceptance criteria only where the domain/state contracts require it.
+Review Document 23 for cross-contract consistency, then author B-03 Workflow & Job State Machines using Documents 22–23. Refine Document 22 acceptance criteria only where the domain/state contracts expose a material gap. Keep all work documentation-only.
