@@ -123,7 +123,10 @@ None of these open items requires inventing a substitute decision in the Gate B 
 **Gate B result: PASS — DOCUMENTATION AUTHORING AND CONTRACT COHERENCE.**  
 This pass does not mean production readiness, provider approval, implementation authorization, or Gate C acceptance.
 
-## 7. Gate C entry conditions
+## 7. Gate C completion reference
+Gate C was subsequently completed as a documentation-integrity audit in Document 37. Its result is DOCUMENTATION INTEGRITY PASS with APPLICATION IMPLEMENTATION ENTRY NO-GO. Document 37 records repository presence, cross-reference sampling, 86 requirement-to-test mappings, stale-status corrections and the remaining implementation-entry gates.
+
+## 8. Historical Gate C entry conditions
 
 Gate C must independently verify:
 1. All 22–35 files are present on the intended working branch and indexed.
@@ -136,5 +139,5 @@ Gate C must independently verify:
 
 Gate C may close with disclosed deferred items only if no affected feature is enabled or represented as verified. It cannot waive legal, security, provider, commercial or owner gates.
 
-## 8. Safety boundary
+## 9. Safety boundary
 No code, database migration, provider configuration, paid generation, billing/payment change, external publication, merge to `main` or deployment was performed or authorized by this review.
