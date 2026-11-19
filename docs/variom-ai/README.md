@@ -29,6 +29,7 @@ MAX planning documents are the source foundation for reusable planning material,
 20 Product Decisions Register
 21 Gate B Normative Contract Plan
 22 Functional Requirements & Acceptance Catalogue
+23 Domain Model & Data Dictionary
 
 **Documentation consistency:** document 15 is the earlier consistency review and is superseded where newer source recovery or the full readiness audit in document 18 records a later result.
 
