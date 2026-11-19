@@ -23,3 +23,7 @@ Never commit secrets, credentials, real customer data or local environment files
 Run relevant existing checks. Report exact commands and outcomes; separate passed/failed/skipped/not run. Inspect final diff for unrelated changes, secrets and generated noise. Do not mark work accepted; owner acceptance is required.
 
 Completion report: outcome; changed files; acceptance criteria; exact checks/results; risks/limitations; tracker update proposal; one next action.
+
+
+## Current authority and contract index
+The repository-root `CLAUDE.md` and Document 19 are the current execution-authority sources; this file is a subordinate summary and must not weaken them. Product scope and owner decisions are controlled by Documents 00 and 20. Normative implementation contracts are Documents 22–35; Gate B/Gate C evidence is Documents 36–37. The current phase remains documentation readiness. Application code is not authorized by the presence of these documents.
