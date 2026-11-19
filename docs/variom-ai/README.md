@@ -29,12 +29,12 @@ MAX planning documents are the source foundation for reusable planning material,
 20 Product Decisions Register
 21 Gate B Normative Contract Plan
 22 Functional Requirements & Acceptance Catalogue
-23 Domain Model & Data Dictionary
+23 Domain Model & Data Dictionary\n24 Workflow & Job State Machines\n25 API & Schema Contracts\n26 Credit Ledger & Commercial Boundaries\n27 Security, Privacy & Data Lifecycle\n28 Provider & Capability Evidence Register\n29 UX Interaction & Content Contract\n30 Master Storyboard & Video Production Contract\n31 Simple Smart Editing Contract\n32 Virtual Character Contract\n33 Creative Intelligence & Style Registry Contract\n34 Test & Traceability Strategy\n35 Operations, Backup & Release Readiness\n36 Gate B Integrated Consistency & Readiness Review
 
 **Documentation consistency:** document 15 is the earlier consistency review and is superseded where newer source recovery or the full readiness audit in document 18 records a later result.
 
-**Source recovery:** document 17 records the recovered identity board variants, exact MAX Simple Smart Editing catalogue and accepted MAX Virtual Character product-contract source. Canonical identity selection, separate final UI Design Prompt and exact VARIOM Character questionnaire/Character Sheet remain open.
+**Source recovery:** document 17 is a historical audit snapshot. Its original status statements about canonical identity selection and Character adaptation are superseded by later owner decisions in Document 20 and the updated Visual Identity Baseline. The owner-selected latest identity image is canonical and will be supplied directly to Claude Code; the UI Design Prompt is also owner-supplied. The accepted MAX Virtual Character product contract has been adapted into VARIOM Document 32. The exact Creative Content Intelligence Library source remains unrecovered; style candidates remain unapproved.
 
-**Implementation readiness:** document 18 is a historical snapshot and is superseded by later owner decisions and governance updates where applicable. Document 21 defines the active Gate B contract-authoring sequence; Document 22 is the first normative functional requirements and acceptance baseline. The documentation repository and VARIOM-specific root `CLAUDE.md` are established; a separate application implementation target and technical stack are not yet established or authorized.
+**Gate B contract set:** Documents 22–35 provide the full B-01–B-14 normative contract set. Document 36 records the integrated consistency review and Gate B documentation-authoring PASS with explicit deferred gates. Document 21 defines the contract architecture and exit criteria. The documentation repository and VARIOM-specific root `CLAUDE.md` are established; a separate application implementation target and technical stack are not yet established or authorized.
 
 No application code, provider activation, paid generation, database migration, merge or deployment is authorized by these documents.
