@@ -27,3 +27,7 @@ Combine confirmed facts, objective, category, selected style, brand rules, asset
 
 ## 8. Migration of MAX library assets
 Existing taxonomy/style JSON, P1 records, visual references, shot analyses, schemas and manual test cases are candidate assets only. Map semantics to VARIOM before use; identify changed/duplicate/unmapped/deprecated records; preserve provenance and rights; validate schemas; keep seeds separate from production-approved records. Do not bulk-import old P1 records because the label may have changed meaning.
+
+
+## 9. Current VARIOM registry authority
+Document 33 is the normative governance contract for creative taxonomies and style records. Documents 11–14 remain MAX-derived candidate/review material only; none of the 144 candidates, IDs or mappings is approved for production selection or import. The original Creative Content Intelligence Library source remains unrecovered. Until a VARIOM-owned style set is separately approved and supported by provider evidence, production must use only an explicitly approved neutral fallback or keep the affected style-dependent capability unavailable; never silently promote a candidate.
