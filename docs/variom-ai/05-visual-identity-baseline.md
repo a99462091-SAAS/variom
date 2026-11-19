@@ -6,7 +6,7 @@
 VARIOM — Create Beyond the Ordinary. Visual symbol: jellyfish, based on the owner-approved identity direction and located Library boards.
 
 ## Historical visual tokens — non-authoritative
-The following values were recorded from earlier recovered boards and are retained only as historical reference. They are **not approved implementation tokens** and must not override or be copied instead of the latest owner-selected canonical identity image and the separate UI Design Prompt. The canonical visual values must be derived from those two owner-supplied inputs by the implementation designer.\n\n| Token | Value |
+The following values were recorded from earlier recovered boards and are retained only as historical reference. They are **not approved implementation tokens** and must not override or be copied instead of the latest owner-selected canonical identity image and the separate UI Design Prompt. The canonical visual values must be derived from those two owner-supplied inputs by the implementation designer.\n\nThe following values were recorded from earlier recovered boards and are retained only as historical reference. They are **not approved implementation tokens** and must not override or be copied instead of the latest owner-selected canonical identity image and the separate UI Design Prompt. The canonical visual values must be derived from those two owner-supplied inputs by the implementation designer.\n\n| Token | Value |
 |---|---|
 | Deep Ocean Navy | #071426 |
 | Midnight Blue | #0B1D35 |
@@ -16,7 +16,7 @@ The following values were recorded from earlier recovered boards and are retaine
 | Pure White | #F5FAFC |
 
 ## Typography
-Historical typography notes only: Sora for headings; Inter for English interface/body; IBM Plex Sans Arabic for Arabic interface/body. Do not treat these as binding unless confirmed by the owner-supplied UI Design Prompt.
+Historical typography notes only: Historical typography notes only: Sora for headings; Inter for English interface/body; IBM Plex Sans Arabic for Arabic interface/body. Do not treat these as binding unless confirmed by the owner-supplied UI Design Prompt. Do not treat these as binding unless confirmed by the owner-supplied UI Design Prompt.
 
 ## Visual direction
 Historical direction notes only: modern, clean, professional, ocean-inspired. The latest owner-selected image and UI Design Prompt supersede these notes wherever they differ.
