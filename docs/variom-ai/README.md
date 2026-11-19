@@ -27,11 +27,12 @@ MAX planning documents are the source foundation for reusable planning material,
 18 Full Documentation Readiness Audit
 19 Execution Charter & Authority Map
 20 Product Decisions Register
+21 Gate B Normative Contract Plan
 
 **Documentation consistency:** document 15 is the earlier consistency review and is superseded where newer source recovery or the full readiness audit in document 18 records a later result.
 
 **Source recovery:** document 17 records the recovered identity board variants, exact MAX Simple Smart Editing catalogue and accepted MAX Virtual Character product-contract source. Canonical identity selection, separate final UI Design Prompt and exact VARIOM Character questionnaire/Character Sheet remain open.
 
-**Implementation readiness:** document 18 concludes NOT READY FOR IMPLEMENTATION. The current folder is a product-planning baseline, not a complete implementation specification. Critical gaps include implementation target/root Claude instructions, product/commercial conflicts, functional acceptance criteria, domain/API/job/credit contracts, security/privacy/operations, provider evidence and test traceability.
+**Implementation readiness:** document 18 is a historical snapshot and is superseded by later owner decisions and governance updates where applicable. Document 21 defines the active Gate B contract-authoring sequence. The documentation repository and VARIOM-specific root `CLAUDE.md` are established; a separate application implementation target and technical stack are not yet established or authorized.
 
 No application code, provider activation, paid generation, database migration, merge or deployment is authorized by these documents.
