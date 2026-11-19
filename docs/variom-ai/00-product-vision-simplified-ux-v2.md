@@ -1,133 +1,856 @@
-# VARIOM – Product Vision & Simplified UX Specification V2.0
+# VARIOM
 
-**Status:** Owner-approved product vision and UX baseline.  
-**Authority:** Highest product-level source of truth for VARIOM.  
-**Version:** V2.0.
+# Product Vision & Simplified UX Specification
 
-This repository copy is a structured consolidation of the owner-approved V2.0 decisions available in the project context; it is not claimed to be a verbatim export of the original conversation document. Product scope and behavior here override older MAX assumptions. If the exact original source file is later supplied or recovered, preserve its wording while retaining this reconciliation as needed. The UX/frontend master specification is subordinate and may clarify implementation, not expand scope.
+**التصور المعتمد للمنتج وتجربة المستخدم – الإصدار 2.0**
 
-## 1. Vision
-VARIOM is an intelligent marketing and creative content platform that understands the brand, thinks through marketing and creative decisions, and produces useful content with minimum user effort.
+**الحالة:** أساس تصميم واجهات المنصة  
+**التوجه:** Maximum Quality – Minimum Complexity
 
-**Brand Understanding → Marketing Thinking → Creative Production.**
+---
 
-The system performs complex reasoning internally while keeping the user experience simple. It reuses known information, avoids repeated questions, chooses detailed creative styles internally, shows actual costs before execution, and never presents mock output as real production.
+## 1. الرؤية الأساسية
 
-## 2. Four product systems
-1. **Brand Intelligence:** Brand Profile, Brand DNA, Brand Voice, Visual Identity, Brand Assets, Virtual Character.
-2. **Marketing & Creative Intelligence:** Marketing Strategies, Creative Content Taxonomy, Content Styles, Marketing Ideas, Copywriting Intelligence, Prompt Engineering & Generation Intelligence.
-3. **Content Production:** Monthly Content, Image Generation, Video Generation, Smart Video Editing.
-4. **Content Library:** generated images, videos and monthly content.
+VARIOM منصة ذكية لإنشاء المحتوى التسويقي والإبداعي، تساعد أصحاب المشاريع والعلامات التجارية ووكالات التسويق على إنتاج محتوى احترافي متكامل بأقل عدد من الخطوات.
 
-These are logical product systems, not a mandate for four services or four agents.
+تعتمد المنصة على فهم هوية البراند وأهدافه التسويقية، ثم تتولى التفكير في المحتوى وأفكاره ونصوصه وأساليب تنفيذه وإنتاجه.
 
-## 3. Brand setup and Brand DNA
-- Initial profile asks for brand name, activity, audience, and optional logo.
-- Reuse information already provided; do not repeat questions.
-- Fill gaps only when useful; never invent brand facts.
-- Allow skip/edit/save for optional setup.
-- Brand DNA includes profile, audience, personality, voice, language/dialect where specified, visual identity and brand assets.
-- Brand Assets management is in scope.
-- **No Product Catalog.**
-- Product photos are manually uploaded for each relevant generation task; do not assume a persistent product catalogue.
+**المعادلة الأساسية:**
 
-## 4. Approved content taxonomy
-Image categories:
-- **P1 — Product Showcase**
-- **P2 — Static Ad**
-- **P3 — Carousel**
-- **P4 — Lifestyle**
+Brand Understanding → Marketing Thinking → Creative Production
 
-Video categories:
-- **V1 — UGC**
-- **V2 — Product Demo**
-- **V3 — Motion Graphics**
-- **V4 — Story / Testimonial**
+المستخدم يحدد ما يحتاج إليه، والمنصة تتولى كيفية تنفيذه.
 
-Do not carry over old MAX definitions where their meaning differs. Detailed Content Styles are selected internally, not exposed as long technical menus. Keep category distinct from objective, topic, format, production method and copywriting approach.
+## 2. الفئات المستهدفة
 
-## 5. Marketing objectives and Monthly Content
-Approved objectives:
-1. Brand Awareness
-2. Product Awareness
-3. Product Launch
-4. Campaign Launch
-5. Sales Growth
-6. Engagement
-7. Lead Generation
-8. Trust Building
+1. أصحاب المشاريع.
+2. أصحاب العلامات التجارية والتجارة الإلكترونية.
+3. وكالات التسويق.
 
-Select up to three goals: one primary and up to two supporting.
+## 3. الهيكل الأساسي للمنصة
 
-Monthly generation rules:
-- 8, 12 or 16 posts.
-- Smart image/video distribution; user may adjust within approved behavior.
-- Images and videos only; no carousel.
-- Up to 10 manually uploaded product photos; optional price per image.
-- Optional virtual character.
-- Optional template review; user may proceed directly.
-- Show actual cost before generation; never hardcode illustrative prices as live prices.
-- Template review shows content type, illustrative reference image, idea, and copy/dialogue when applicable. Clearly label reference imagery as illustrative, not generated output.
-- Only idea and copy/dialogue are editable in template review.
-- No publishing-platform selection.
-- Image sizes: Instagram Portrait or Instagram Landscape.
-- Video sizes: Reels Portrait or Reels Landscape Video.
-- Monthly video duration: **maximum 10 seconds per video**.
-- Internal stages: Planning → Content Preparation → Generation → Final Quality Check.
-- One progress indicator and completed posts/total.
-- Results: view/open/download only; completed outputs automatically saved to Content Library.
+تتكون المنصة من أربعة أنظمة مترابطة:
 
-## 6. Image Studio
-- P1–P4.
-- One idea or five idea suggestions.
-- Manually upload the product image for the relevant task.
-- Optional product price and optional character.
-- Instagram Portrait or Instagram Landscape.
-- System selects detailed style internally.
-- Show actual cost before generation.
-- No initial paid post-generation image-editing loop.
-- Save completed outputs automatically to Content Library.
+### 3.1 Brand Intelligence
 
-## 7. Video Studio
-- V1–V4.
-- One idea or five idea suggestions.
-- Manually upload product image; optional character.
-- Durations: **10, 20 or 30 seconds**.
-- Formats: Reels Portrait or Reels Landscape Video.
-- Optional scene review; show scene description and dialogue/text only, with approved editable fields.
-- No separate audio controls.
-- Internal Master Storyboard is mandatory; no direct video generation bypass.
-- Save completed outputs automatically to Content Library.
+مسؤول عن فهم البراند، ويتضمن:
 
-## 8. Master Storyboard
-An internal production workflow maintaining continuity of character identity, product appearance, creative style, voice/language/dialect, scene order, action, timing and transitions. Use start/end visual references when useful and technically supported. Segmenting must not fragment the story. Hide unnecessary orchestration complexity from users.
+- Brand Profile.
+- Brand DNA.
+- Brand Voice.
+- Visual Identity.
+- Brand Assets.
+- Virtual Character.
 
-## 9. Smart Video Editing
-The repository's approved **Simple Smart Editing** task list is the implementation authority. Do not expand the feature set simply because older MAX documentation or local media code contains additional capabilities. The UX reference mentions Auto Captions, Audio Enhancement, Silence Removal, Music & Rhythm, Motion Graphics (six categories), and Additional Instructions; reconcile these against the actual approved repository list before implementation. No professional timeline editor or unsupported advanced audio controls.
+### 3.2 Marketing & Creative Intelligence
+
+مسؤول عن التفكير التسويقي والإبداعي، ويستخدم الوثائق المعتمدة في المستودع:
+
+- Marketing Strategies.
+- Creative Content Taxonomy.
+- Content Styles.
+- Marketing Ideas.
+- Copywriting Intelligence.
+- Prompt Engineering & Generation Intelligence.
+
+لا تُنشأ مكتبات أو طبقات تنظيمية جديدة دون حاجة مثبتة.
+
+### 3.3 Content Production
+
+مسؤول عن تنفيذ المحتوى:
+
+- Monthly Content Generation.
+- Image Generation.
+- Video Generation.
+- Smart Video Editing.
+
+### 3.4 Content Library
+
+مسؤول عن حفظ المحتوى الناتج وتنظيمه وإتاحته للمستخدم.
+
+## 4. Brand DNA
+
+### 4.1 الهدف
+
+تجميع المعلومات الضرورية لفهم العلامة التجارية، واستخدامها تلقائيًا في جميع عمليات الإنتاج.
+
+### 4.2 التسجيل الأولي
+
+بعد إنشاء الحساب، تظهر واجهة مختصرة تحتوي على:
+
+- اسم البراند.
+- النشاط.
+- الجمهور المستهدف.
+- الشعار (اختياري).
+
+### 4.3 إعداد Brand DNA
+
+يجب أن يراعي النظام المعلومات التي أُدخلت في التسجيل الأول.
+
+لا يعيد طرح أي سؤال تمت الإجابة عنه.
+
+تقتصر الأسئلة على المعلومات المهمة التي لم تُجمع بعد، وتشمل:
+
+**أ. البراند وتموضعه**
+
+- ما الذي يميز البراند عن المنافسين؟
+- ما القيمة الأساسية التي يقدمها؟
+
+**ب. الجمهور**
+
+- ما الاحتياجات والمشكلات الأساسية للجمهور؟
+- ما أهم الدوافع التي تجعله يختار البراند؟
+
+**ج. أسلوب التواصل**
+
+- ما شخصية البراند؟
+- ما اللهجة واللغة المستخدمة؟
+- ما أسلوب التواصل المفضل؟
+
+**د. الهوية البصرية**
+
+- الألوان.
+- الخطوط.
+- أسلوب الصور والتصميم.
+- المراجع البصرية عند الحاجة.
+
+**هـ. معلومات النشاط والمنتج**
+
+- المعلومات المهمة عن المنتجات أو الخدمات.
+- المميزات والفوائد.
+- المعلومات التسويقية التي يمكن استخدامها.
+
+تُحذف الأسئلة التي تمت تغطيتها بالفعل في التسجيل أو يمكن استنتاج إجابتها بصورة موثوقة من البيانات المقدمة.
+
+### 4.4 قواعد إعداد Brand DNA
+
+- أسئلة مباشرة ومختصرة.
+- تقسيم بسيط للمعلومات.
+- عدم طلب معلومات غير مؤثرة في الإنتاج.
+- إمكانية تخطي المعلومات غير الضرورية مؤقتًا.
+- حفظ الإجابات.
+- إمكانية التعديل لاحقًا.
+
+لا يُنشأ كتالوج منتجات داخل Brand DNA.
+
+صور المنتجات التي يحتاج إليها المستخدم يرفعها يدويًا في عملية إنشاء المحتوى المناسبة.
+
+## 5. مكتبات المعرفة الإبداعية والتسويقية
+
+تعتمد VARIOM على المكتبات والوثائق المعتمدة الموجودة في المستودع.
+
+### 5.1 أنواع المحتوى المعتمدة
+
+**Image Content**
+
+- P1 – Product Showcase.
+- P2 – Static Ad.
+- P3 – Carousel.
+- P4 – Lifestyle.
+
+**Video Content**
+
+- V1 – UGC.
+- V2 – Product Demo.
+- V3 – Motion Graphics.
+- V4 – Story / Testimonial.
+
+لا تتم إضافة أنواع جديدة في هذه المرحلة.
+
+### 5.2 أساليب المحتوى
+
+تستخدم مكتبة الأساليب المعتمدة بالفعل.
+
+يختار النظام الأسلوب المناسب داخليًا حسب:
+
+- نوع المحتوى.
+- الفكرة.
+- الهدف التسويقي.
+- شخصية البراند.
+- إمكانيات التوليد.
+
+لا يحتاج المستخدم إلى اختيار الأسلوب.
+
+### 5.3 Marketing Intelligence
+
+تُستخدم الوثائق المعتمدة للاستراتيجيات والأفكار التسويقية لتحديد المحتوى المناسب للهدف.
+
+### 5.4 Copywriting Intelligence
+
+يتولى النظام إنتاج النصوص التسويقية وفق المنظومة المعتمدة.
+
+يراعي:
+
+- Brand Voice.
+- اللهجة المعتمدة.
+- الجمهور.
+- المنتج.
+- الهدف التسويقي.
+- الرسالة المطلوبة.
+- أسلوب الإقناع.
+- الدعوة إلى اتخاذ إجراء عند الحاجة.
+
+لا تظهر هذه المراحل للمستخدم ولا يُطلب منه إعداد النصوص بنفسه.
+
+## 6. الخاصية الأولى: محتوى الشهر
+
+### 6.1 الهدف
+
+إنشاء مجموعة محتوى شهرية متكاملة ومتناسقة من خلال خطوات قليلة.
+
+هذه هي الخاصية الرئيسية في VARIOM.
+
+### 6.2 رحلة الاستخدام
+
+**الخطوة 1: تحديد أهداف المحتوى**
+
+يستطيع المستخدم اختيار حتى ثلاثة أهداف.
+
+الأهداف المتاحة:
+
+- Brand Awareness.
+- Product Awareness.
+- Product Launch.
+- Campaign Launch.
+- Sales Growth.
+- Engagement.
+- Lead Generation.
+- Trust Building.
+
+يُوصى بتحديد هدف رئيسي، مع إمكانية إضافة هدفين داعمين.
+
+تستخدم المنصة الأهداف المختارة لتحديد الاستراتيجية وتوزيع المحتوى.
+
+**الخطوة 2: تحديد عدد المنشورات**
+
+الاختيارات:
+
+- 8 منشورات.
+- 12 منشورًا.
+- 16 منشورًا.
+
+بعد الاختيار تظهر توصية المنصة بتوزيع المنشورات بين الصور والفيديو.
+
+يكون التوزيع بخط أصغر من اختيار العدد الإجمالي.
+
+يمكن للمستخدم تعديل التوزيع.
+
+قواعد التوزيع:
+
+- الصور والفيديو فقط.
+- لا يوجد كاروسيل في هذه الخاصية.
+- مجموع الصور والفيديو يساوي عدد المنشورات.
+
+**الخطوة 3: إضافة صور المنتجات**
+
+يسمح برفع حتى 10 صور.
+
+كل صورة يمكن إرفاق سعر بها اختياريًا.
+
+المستخدم يرفع الصور يدويًا، ولا تستورد المنصة صور المنتجات من Brand DNA أو من كتالوج.
+
+**الخطوة 4: الشخصية الافتراضية**
+
+زر واحد للتفعيل أو الإيقاف.
+
+عند التفعيل تستخدم الشخصية المحفوظة في أنواع المحتوى المناسبة.
+
+**الخطوة 5: تحديد مقاس المحتوى**
+
+لا يوجد اختيار لمنصات النشر.
+
+تعتمد المنصة المقاسات التالية:
+
+**الصور:**
+
+- Instagram Portrait.
+- Instagram Landscape.
+
+**الفيديو:**
+
+- Reels Portrait.
+- Landscape Video.
+
+تختار المنصة المقاس المناسب افتراضيًا وفق نوع المحتوى، مع إمكانية الاختيار بين المقاسين المعتمدين.
+
+### 6.3 مراجعة قوالب المحتوى
+
+خيار اختياري يظهر بعد إتمام الإعدادات.
+
+يوجد خياران:
+
+- مراجعة القوالب.
+- التوليد مباشرة.
+
+**تكلفة المراجعة**
+
+10 Credits وفق التسعير المقترح، وتظهر التكلفة قبل التنفيذ.
+
+**محتويات كل قالب**
+
+1. نوع المحتوى الأساسي والفرعي.
+2. صورة توضيحية من مكتبة المنصة.
+3. فكرة المحتوى.
+4. النص أو الحوار عند وجوده.
+
+تظهر ملاحظة بأن الصورة توضيحية فقط وليست النتيجة النهائية.
+
+يسمح للمستخدم بتعديل الفكرة والنص أو الحوار فقط.
+
+لا يستطيع تعديل نوع المحتوى أو الصورة التوضيحية أو الأسلوب الداخلي.
+
+لا تظهر معلومات المنصة أو المقاس داخل القالب.
+
+### 6.4 بدء التوليد
+
+يظهر زر:
+
+**التوليد – Generation**
+
+وبجواره التكلفة الإجمالية.
+
+بعد الضغط تظهر تكلفة العملية والرصيد المتبقي المتوقع، ثم تأكيد التنفيذ.
+
+### 6.5 مراحل التنفيذ الداخلية
+
+تُختصر إلى أربع عمليات رئيسية:
+
+**1. Planning**
+
+- قراءة Brand DNA.
+- تحليل الأهداف.
+- تحديد الاستراتيجية التسويقية.
+- توزيع المحتوى بين الصور والفيديو.
+
+**2. Content Preparation**
+
+- تحديد فكرة كل منشور.
+- اختيار نوع المحتوى والأسلوب المعتمد.
+- كتابة النصوص.
+- تحديد الصور والشخصية والمقاسات.
+- تجهيز أوامر الإنتاج.
+
+**3. Generation**
+
+- توليد المحتوى.
+- تنفيذ المهام بالتتابع أو بالتوازي حسب الأنسب.
+- حفظ النتائج المكتملة مباشرة.
+
+**4. Final Quality Check**
+
+فحص النتائج للتأكد من:
+
+- توافق الهوية.
+- صحة معلومات المنتج.
+- جودة النصوص.
+- اتساق المحتوى.
+- صحة المقاسات.
+- ترابط المجموعة.
+
+لا تُضاف مراحل أو عمليات مستقلة غير ضرورية.
+
+### 6.6 الفيديو في محتوى الشهر
+
+الحد الأقصى 10 ثوانٍ لكل فيديو.
+
+تُستخدم آلية الفيديو المعتمدة في المستودع، بما فيها Master Storyboard عندما تتطلب عملية الإنتاج تقسيم الفيديو إلى عدة مقاطع.
+
+### 6.7 متابعة التنفيذ
+
+واجهة بسيطة تتضمن:
+
+- مؤشر اكتمال العملية.
+- عدد المنشورات المكتملة من إجمالي العدد.
+
+تظهر رسالة مختصرة بأن النتائج المكتملة تُحفظ تلقائيًا في مكتبة المحتوى.
+
+لا تُعرض قائمة طويلة من حالات التنفيذ أو تفاصيل تقنية للمستخدم.
+
+### 6.8 النتيجة النهائية
+
+بعد اكتمال العملية يستطيع المستخدم فقط:
+
+1. مشاهدة جميع المنشورات.
+2. فتح أي منشور منفردًا.
+3. تنزيل المحتوى.
+
+لا تُضاف في هذه المرحلة أدوات إدارة أو موافقة أو تصدير مجموعات أو إجراءات إضافية.
+
+## 7. الخاصية الثانية: إنشاء المحتوى الفردي
+
+تتضمن مسارين: الصور والفيديو.
+
+### 7.1 Image Studio
+
+**الخطوة 1: نوع المحتوى**
+
+أربعة اختيارات معتمدة:
+
+- P1.
+- P2.
+- P3.
+- P4.
+
+تظهر كل فئة في بطاقة تحتوي على اسمها وصورة توضيحية.
+
+**الخطوة 2: الفكرة**
+
+حقل لكتابة فكرة المحتوى.
+
+زر اختياري لتوليد الأفكار.
+
+تنتج المنصة خمس أفكار للاختيار منها.
+
+التكلفة المقترحة: 1 Credit.
+
+**الخطوة 3: صورة المنتج**
+
+يرفع المستخدم صورة المنتج يدويًا عند الحاجة.
+
+لا تُسحب الصورة تلقائيًا من Brand DNA.
+
+**الخطوة 4: الشخصية الافتراضية**
+
+زر تفعيل أو إيقاف.
+
+**الخطوة 5: المقاس**
+
+- Instagram Portrait.
+- Instagram Landscape.
+
+**الخطوة 6: التوليد**
+
+يظهر زر التوليد والتكلفة.
+
+بعد التأكيد تبدأ العملية.
+
+**النتيجة**
+
+عرض الصورة الناتجة وإمكانية تنزيلها.
+
+يوضع حقل التعديلات المستقبلية في التصميم المعماري، دون تفعيل دورة تعديل مدفوعة في الإصدار الأول.
+
+### 7.2 Video Studio
+
+**الخطوة 1: نوع المحتوى**
+
+أربعة أنواع معتمدة:
+
+- V1 – UGC.
+- V2 – Product Demo.
+- V3 – Motion Graphics.
+- V4 – Story / Testimonial.
+
+**الخطوة 2: الفكرة**
+
+كتابة الفكرة أو طلب خمس أفكار مقترحة.
+
+**الخطوة 3: مدة الفيديو**
+
+- 10 ثوانٍ.
+- 20 ثانية.
+- 30 ثانية.
+
+**الخطوة 4: صورة المنتج**
+
+رفع الصورة يدويًا عند الحاجة.
+
+**الخطوة 5: الشخصية الافتراضية**
+
+تفعيلها عند الحاجة وحسب نوع الفيديو.
+
+**الخطوة 6: المقاس**
+
+- Reels Portrait.
+- Landscape Video.
+
+**الخطوة 7: مراجعة القالب**
+
+خيار اختياري.
+
+تعرض المنصة لكل مشهد:
+
+- وصف المشهد.
+- النص أو الحوار إن وجد.
+
+لا تعرض تفاصيل الصوت أو إعدادات الكاميرا أو الانتقالات أو الإعدادات التقنية.
+
+يمكن للمستخدم تعديل وصف المشهد والنص أو الحوار فقط.
+
+**الخطوة 8: التوليد**
+
+زر التوليد مع عرض التكلفة الإجمالية.
+
+يمكن للمستخدم تجاوز المراجعة والبدء مباشرة.
+
+## 8. نظام إنتاج الفيديو وMaster Storyboard
+
+تلتزم المنصة بنظام الفيديو المعتمد في المستودع.
+
+عند الحاجة إلى إنتاج فيديو من عدة مقاطع:
+
+1. إعداد Master Storyboard موحد.
+2. تحديد تسلسل المشاهد واللقطات.
+3. إعداد مرجع بصري لبداية اللقطة ونهايتها عند الحاجة.
+4. إرفاق المراجع المناسبة مع أمر توليد كل مقطع.
+5. تضمين تفاصيل الشخصية والمنتج والأسلوب البصري والصوت واللهجة في أمر التوليد.
+6. توليد المقاطع بصورة تحافظ على الاستمرارية.
+7. دمج المقاطع في المرحلة النهائية.
+8. فحص الفيديو النهائي للتأكد من ترابط المشاهد.
+
+الصوت، إذا كان مطلوبًا، يُولد من خلال أداة توليد الفيديو نفسها وفق التفاصيل الموجودة في أمر التوليد.
+
+لا توجد مرحلة منفصلة لمعالجة الصوت أو واجهة إعداد صوتية إضافية ضمن هذه الرحلة.
+
+لا يُطلب من المستخدم التعامل مع هذه التفاصيل التقنية.
+
+## 9. الخاصية الثالثة: Smart Video Editing
+
+### 9.1 الهدف
+
+توفير مونتاج مبسط للفيديوهات المرفوعة دون الحاجة إلى برنامج مونتاج احترافي.
+
+### 9.2 الواجهة
+
+**الخطوة 1: رفع الفيديو**
+
+- اختيار الفيديو.
+- عرض معاينة الملف.
+- تحديد الحد الأقصى للحجم.
+
+**الخطوة 2: اختيار المميزات**
+
+تعتمد المكتبة الحالية المعتمدة في المستودع:
+
+- Auto Captions.
+- Audio Enhancement.
+- Silence Removal.
+- Music & Rhythm.
+- Motion Graphics من الفئات الست المعتمدة.
+- Additional Instructions.
+
+تعمل الخيارات بنظام التحديد المتعدد.
+
+**الخطوة 3: اختيار القالب**
+
+قوالب المونتاج المعتمدة، مع إظهار عدد محدود من الاختيارات بصريًا.
+
+**الخطوة 4: التوليد**
+
+تظهر التكلفة الإجمالية قبل التنفيذ.
+
+بعد التأكيد يبدأ المونتاج.
+
+**النتيجة**
+
+عرض الفيديو النهائي وإمكانية تنزيله.
+
+لا توجد مرحلة معاينة مستقلة قبل التصدير النهائي.
 
 ## 10. Virtual Character Studio
-Concise guided creation using approved questionnaire and Character Sheet requirements. Generate, save, edit and reuse. Character is optional in relevant generation flows. Do not invent missing questionnaire fields or claim implementation without evidence.
+
+### 10.1 الهدف
+
+إنشاء شخصية افتراضية قابلة لإعادة الاستخدام في المحتوى.
+
+### 10.2 الواجهة
+
+تقتصر على:
+
+1. الإجابة عن الأسئلة الأساسية.
+2. تحديد المواصفات المطلوبة.
+3. إنشاء الشخصية.
+4. عرض Character Sheet.
+5. حفظ الشخصية.
+6. تعديلها عند الحاجة.
+
+لا نضيف خطوات إعداد متقدمة لا يحتاج إليها المستخدم العادي.
+
+يتم استخدام الشخصية المحفوظة تلقائيًا في عمليات التوليد التي يفعّل فيها المستخدم خيار الشخصية الافتراضية.
 
 ## 11. Content Library
-Images, videos and monthly content; type/date filters; grid; open/preview; download. Save completed image, video, editing and monthly outputs automatically. No project management, approvals, ZIP export or collections unless separately approved.
 
-## 12. Dashboard and brand limits
-Dashboard focuses on brands, active brand, actual credits/usage and primary actions. Approved brand limits: Basic=1, Pro=3, Max=10. Do not display or enforce a limit unless backed by actual approved subscription implementation. Never invent billing state.
+مكتبة موحدة لحفظ جميع النتائج.
 
-## 13. Credit lifecycle
-Show actual cost; check balance; reserve credits; execute; settle actual usage; return unused reservation after partial failure or lower consumption. Keep accounting mechanics unobtrusive. UI must reflect real backend state; never simulate real charges/refunds.
+### 11.1 المحتويات
 
-## 14. Language and responsive UX
-Arabic and English are mandatory; RTL/LTR must work correctly. Support desktop and mobile. Use concise steps, smart defaults, minimal choices and autosave where specified. Users should not need to write professional marketing copy or complex prompts.
+- الصور.
+- الفيديوهات.
+- المحتوى الشهري.
 
-## 15. UX principles
-Minimum steps/questions; smart defaults; internal complexity and simple external UX; actual costs before execution; preserve approved brand facts; clear progress/error/recovery; no fabricated providers, outputs, prices or credit actions.
+### 11.2 الفلاتر
 
-## 16. Exclusions
-No Product Catalog; no carousel in Monthly Content; no publishing/scheduling/social-account management; no analytics dashboards or ad campaign management; no approvals or team/agency collaboration; no ZIP; no professional timeline editor; no separate advanced audio phases; no 4K; no unapproved categories, formats, durations or ratios; no paid post-generation image-editing loop.
+- النوع.
+- التاريخ.
 
-## 17. Commercial/provider truth
-Use verified provider costs and actual consumption. Protect margin through evidence-based pricing. A mock provider or local renderer is not a production AI provider. Live provider activation requires separate approval, capability validation, cost review and safety checks.
+### 11.3 واجهة المكتبة
 
-## 18. Authority and change control
-This V2.0 document is the product authority. UX/frontend implementation is subordinate. Architecture cannot silently change product behavior. New categories, workflows, commercial rules or excluded features require explicit owner approval.
+تعرض معاينات المحتوى في شبكة بسيطة.
+
+عند فتح عنصر يظهر المحتوى وإمكانية تنزيله.
+
+لا نضيف نظام إدارة مشاريع أو موافقات أو حالات مراجعة أو تصدير جماعي في الإصدار الأول.
+
+## 12. Dashboard
+
+### 12.1 الهدف
+
+تقديم المعلومات المهمة دون ازدحام.
+
+### 12.2 العناصر الأساسية
+
+- البراندات المسجلة.
+- البراند النشط.
+- الرصيد المتبقي.
+- الاستهلاك.
+- موعد التجديد.
+- الباقة الحالية.
+
+### 12.3 إدارة البراندات
+
+عرض البراندات مع إمكانية الانتقال بينها وإضافة براند ضمن حدود الباقة.
+
+### 12.4 القائمة الرئيسية
+
+- Dashboard.
+- Monthly Content.
+- Create Image.
+- Create Video.
+- Smart Editing.
+- Content Library.
+- Brand DNA.
+- Virtual Character.
+- Settings.
+
+تُعرض القائمة بأبسط تنظيم ممكن، مع إبراز محتوى الشهر باعتباره الوظيفة الرئيسية.
+
+## 13. نظام Credits
+
+### 13.1 القاعدة
+
+يجب أن يعرف المستخدم تكلفة العملية قبل تنفيذها.
+
+### 13.2 واجهة التكلفة
+
+تعرض فقط:
+
+- تكلفة العملية.
+- الرصيد الحالي عند الحاجة.
+- الرصيد المتبقي بعد التنفيذ.
+
+### 13.3 التنفيذ
+
+- التحقق من الرصيد.
+- حجز التكلفة اللازمة.
+- تنفيذ العملية.
+- تسوية التكلفة الفعلية.
+- إعادة الرصيد غير المستخدم عند فشل أجزاء من العملية.
+
+### 13.4 البساطة
+
+لا تظهر تفاصيل محاسبية أو تقنية للمستخدم العادي.
+
+تُحفظ التفاصيل في النظام الداخلي لأغراض الدقة والمراجعة.
+
+## 14. قواعد تجربة المستخدم
+
+1. لا تكرر أي سؤال تمت الإجابة عنه.
+2. لا تعرض خيارًا لا يحتاج إليه المستخدم في العملية الحالية.
+3. استخدم التوصيات الافتراضية.
+4. لا تجعل المستخدم يختار الأساليب الإبداعية.
+5. لا تطلب منه كتابة نصوص تسويقية احترافية.
+6. اعرض التكلفة قبل التنفيذ.
+7. اجعل الأزرار قصيرة ومباشرة.
+8. احفظ النتائج المكتملة تلقائيًا.
+9. قلل المعلومات الظاهرة أثناء التوليد.
+10. استخدم العربية والإنجليزية مع دعم RTL وLTR.
+11. حافظ على بساطة التصميم على الهاتف والحاسوب.
+
+## 15. العناصر المستبعدة من نطاق الإصدار الحالي
+
+لا تدخل العناصر التالية في التصميم الحالي:
+
+- كتالوج المنتجات.
+- الكاروسيل في محتوى الشهر.
+- اختيار منصات النشر في محتوى الشهر.
+- اقتراح المقاسات داخل قوالب الشهر.
+- إدارة تقويم النشر.
+- جدولة المنشورات.
+- موافقات العملاء.
+- Content Approval Workflow.
+- تنزيل المجموعات بصيغة ZIP.
+- نظام إدارة فرق الوكالات.
+- نظام إدارة مشاريع العملاء.
+- محرر مونتاج احترافي.
+- مراحل صوتية مستقلة.
+- أدوات تحليل أداء المنشورات.
+- أدوات إدارة الحملات الإعلانية.
+
+أي إضافة مستقبلية تتطلب مبررًا واضحًا لقيمتها.
+
+## 16. القرارات التي تحتاج إلى اعتماد نهائي
+
+تُعرض هنا الخيارات مع التوصية المقترحة.
+
+**القرار 1: اختيار الأهداف الشهرية**
+
+- A: هدف واحد فقط.
+- B: حتى ثلاثة أهداف، دون تمييز.
+- C: هدف رئيسي وهدفان داعمان كحد أقصى.
+
+**التوصية: C.**
+
+يساعد على بناء استراتيجية واضحة دون تشتت.
+
+**القرار 2: توزيع الصور والفيديو**
+
+- A: توزيع ثابت لكل عدد منشورات.
+- B: توصية ذكية قابلة للتعديل.
+- C: المستخدم يحدد التوزيع بالكامل.
+
+**التوصية: B.**
+
+يحقق البساطة ويمنح المستخدم حرية كافية.
+
+**القرار 3: مقاسات الصور والفيديو**
+
+- A: يختار المستخدم المقاس لكل عملية.
+- B: تعتمد المنصة المقاس الافتراضي وتسمح بتغييره بين المقاسين المعتمدين.
+
+**التوصية: B.**
+
+المقاس الافتراضي يقلل الخطوات، مع الاحتفاظ بالمرونة.
+
+**القرار 4: مراجعة قوالب محتوى الشهر**
+
+- A: تفعيلها افتراضيًا.
+- B: اختيار اختياري.
+- C: إلغاؤها.
+
+**التوصية: B.**
+
+تخدم المستخدم الذي يريد مراجعة المحتوى، دون إجبار الجميع على دفع تكلفة إضافية أو انتظار مرحلة أخرى.
+
+**القرار 5: مقاسات الفيديو الفردي**
+
+- A: Reels Portrait افتراضيًا.
+- B: يختار المستخدم بين Portrait وLandscape.
+
+**التوصية: A افتراضيًا مع إمكانية التغيير.**
+
+**القرار 6: الشخصية الافتراضية**
+
+- A: تفعيلها تلقائيًا.
+- B: تعطيلها افتراضيًا مع زر تفعيل.
+- C: سؤال المستخدم في كل عملية.
+
+**التوصية: B.**
+
+**القرار 7: لوحة التحكم**
+
+- A: لوحة إحصائيات تفصيلية.
+- B: لوحة مختصرة تحتوي على البراندات والرصيد والاستهلاك والتجديد.
+
+**التوصية: B.**
+
+**القرار 8: إعداد Brand DNA**
+
+- A: نموذج طويل ومتكامل.
+- B: أسئلة أساسية فقط مع استكمال المعلومات الناقصة عند الحاجة.
+
+**التوصية: B.**
+
+## 17. نقاط الاتساق مع القرارات السابقة
+
+هذه النقاط يجب حسمها حتى لا تتعارض مواصفات VARIOM مع القرارات السابقة المعتمدة.
+
+### 17.1 أسماء الباقات وحدود البراندات
+
+الخيارات:
+
+- A: Starter = 1، Pro = 3، Agency = حتى 8.
+- B: Basic = 1، Pro = 3، Max = 10.
+
+**التوصية: B باعتباره التصور التجاري الأحدث الذي قدمه المستخدم، مع اعتماده رسميًا بدل التسميات السابقة.**
+
+### 17.2 منظومة كتابة النصوص التسويقية
+
+الخيارات:
+
+- A: الإبقاء على منظومة Copywriting Intelligence المعتمدة كاملة داخليًا دون إظهار تفاصيلها للمستخدم.
+- B: إنشاء منظومة جديدة مبسطة منفصلة.
+
+**التوصية: A.**
+
+لا داعي لإعادة بناء نظام معتمد. التبسيط يكون في واجهة الاستخدام والتنفيذ، لا في إلغاء القدرات المطلوبة.
+
+### 17.3 مكتبات أنواع المحتوى والأساليب
+
+الخيارات:
+
+- A: الاحتفاظ بالتصنيفات المعتمدة P1–P4 وV1–V4 والأساليب الحالية.
+- B: إعادة تصميم التصنيفات.
+
+**التوصية: A.**
+
+### 17.4 منظومة Master Storyboard
+
+الخيارات:
+
+- A: استخدام المنظومة المعتمدة مع المراجع البصرية والاستمرارية ودمج المقاطع.
+- B: إنشاء نظام جديد مبسط.
+
+**التوصية: A.**
+
+يكون التبسيط في طريقة عرض القوالب للمستخدم وليس في حذف متطلبات جودة الفيديو.
+
+### 17.5 المونتاج الذكي
+
+الخيارات:
+
+- A: اعتماد قائمة Simple Smart Editing الموجودة في المستودع.
+- B: استبدالها بقائمة المونتاج الواردة في التصور الجديد.
+
+**التوصية: A لأنها القائمة المعتمدة سابقًا، مع الاحتفاظ بالبساطة في عرضها.**
+
+### 17.6 نظام التسعير والكريدت
+
+الخيارات:
+
+- A: تحديد تكلفة كل عملية بناءً على تكلفة مزود الخدمة والاستهلاك الفعلي.
+- B: تحديد أسعار ثابتة لجميع العمليات دون ارتباط بالتكلفة الفعلية.
+
+**التوصية: A.**
+
+مع إظهار سعر واضح للمستخدم قبل كل عملية، وحماية هامش الربح.
+
+---
+
+## 18. المعيار النهائي لتجربة VARIOM
+
+يجب أن يستطيع صاحب المشروع:
+
+1. التسجيل وإعداد البراند مرة واحدة.
+2. اختيار هدفه التسويقي.
+3. تحديد عدد المنشورات.
+4. إضافة صور المنتجات عند الحاجة.
+5. تفعيل الشخصية عند الحاجة.
+6. الضغط على التوليد.
+7. الحصول على محتوى احترافي متكامل.
+
+دون الحاجة إلى:
+
+- معرفة التسويق.
+- كتابة Prompts.
+- اختيار أساليب معقدة.
+- إعداد النصوص.
+- تحديد تفاصيل الإنتاج.
+- التعامل مع إعدادات تقنية.
+
+**القاعدة النهائية:**
+
+نحافظ على الذكاء والتفكير والجودة داخل النظام، ونُظهر للمستخدم أبسط تجربة ممكنة.
+
+VARIOM تفكر وتخطط وتنتج، والمستخدم يحدد احتياجه فقط.
+
+**نهاية الوثيقة – VARIOM Product & UX Specification V2.0**
