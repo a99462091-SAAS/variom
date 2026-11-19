@@ -25,7 +25,7 @@ The VARIOM questionnaire collects only information necessary to define a coheren
 7. **Consistency controls:** locked traits versus permitted variation.
 8. **Review and save:** present a concise Character Sheet summary and require user confirmation before saving.
 
-The questionnaire MUST NOT invent mandatory fields or force users to provide sensitive personal data. Optional sections may be skipped. Exact field labels and conditional validation are refined in the UX contract using approved product intent.
+The questionnaire MUST NOT invent mandatory fields or force users to provide sensitive personal data. These sections adapt the accepted source contract recovered in Document 17; optional reference views do not become a fixed generation promise. Optional sections may be skipped. Exact field labels and conditional validation are refined in the UX contract using approved product intent.
 
 ## 4. Character Sheet
 A saved Character Sheet version records:
@@ -38,7 +38,7 @@ A saved Character Sheet version records:
 - approved language/voice direction where applicable;
 - locked traits;
 - allowed variation dimensions;
-- reference assets and provenance;
+- reference assets and provenance; where supported and useful, canonical reference package may include front, three-quarter and profile views, neutral appearance reference, full-body/wardrobe reference, and optional expression/pose/voice references; these are capability-gated and not mandatory outputs;
 - creator, version, status and timestamps;
 - applicable rights/consent evidence references.
 
