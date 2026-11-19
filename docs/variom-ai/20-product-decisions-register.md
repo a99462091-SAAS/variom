@@ -27,7 +27,7 @@
 
 | ID | Decision required | Status | Why it matters | Affected work |
 |---|---|---|---|---|
-| VAR-OD-001 | Resolve Basic/Pro/Max (1/3/10 brands) versus Starter/Pro/Agency (1/3/up to 8) and whether plan information remains hidden in the first release. | OPEN | Conflicting product/commercial requirements; cannot safely expose or enforce tiers. | Dashboard, account limits, billing, credits |
+| VAR-OD-001 | Confirm the provisional plan labels and brand-count presentation, while deferring the commercial model. | RESOLVED — PRESENTATION ONLY | Explicit owner decision, 2026-11-19: Starter / Pro / Agency, displayed as 1 / 3 / up to 8 brands. This is a temporary presentation convention only; it does not approve pricing, subscriptions, billing, entitlements, or enforcement. | Plan labels and non-binding UI/document presentation only; commercial model remains deferred |
 | VAR-OD-002 | Select one of the three recovered VARIOM identity-board variants as canonical, or declare all non-final. | OPEN | Prevents inconsistent brand/UI implementation. | Visual system, frontend |
 | VAR-OD-003 | Recover the original final UI Design Prompt or authorize creating a replacement from the approved identity baseline. | OPEN | Visual identity tokens alone do not define the full UI design system. | Frontend design |
 | VAR-OD-004 | Provide the exact VARIOM-approved Virtual Character questionnaire/Character Sheet source, or authorize adaptation of MAX Virtual Character v1.0 into VARIOM-specific UX and contract. | OPEN | The referenced VARIOM questionnaire and output contract are not present. | Character Studio, consent, UX |
@@ -64,6 +64,7 @@ These are inherited only from VARIOM's controlling product baseline, not inferre
 ## E. Decision status summary
 
 - Confirmed owner decisions: 4
-- Open owner decisions: 10
+- Resolved owner decisions (presentation-only scope): 1
+- Open owner decisions: 9
 - Deferred evidence/legal/technical items: 4
 - No open item may be silently converted into an approved product requirement by Claude Code.
