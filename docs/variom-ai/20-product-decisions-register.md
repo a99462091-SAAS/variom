@@ -1,7 +1,7 @@
 # VARIOM — Product Decisions Register
 
 **Version:** 1.0  
-**Status:** Initial register; this is the canonical index for owner decisions.  
+**Status:** Active canonical index for owner decisions; updated after the owner’s Gate A decisions.  
 **Last updated:** 2026-11-19
 
 ## Decision recording rules
@@ -28,15 +28,15 @@
 | ID | Decision required | Status | Why it matters | Affected work |
 |---|---|---|---|---|
 | VAR-OD-001 | Confirm the provisional plan labels and brand-count presentation, while deferring the commercial model. | RESOLVED — PRESENTATION ONLY | Explicit owner decision, 2026-11-19: Starter / Pro / Agency, displayed as 1 / 3 / up to 8 brands. This is a temporary presentation convention only; it does not approve pricing, subscriptions, billing, entitlements, or enforcement. | Plan labels and non-binding UI/document presentation only; commercial model remains deferred |
-| VAR-OD-002 | Select one of the three recovered VARIOM identity-board variants as canonical, or declare all non-final. | OPEN | Prevents inconsistent brand/UI implementation. | Visual system, frontend |
-| VAR-OD-003 | Recover the original final UI Design Prompt or authorize creating a replacement from the approved identity baseline. | OPEN | Visual identity tokens alone do not define the full UI design system. | Frontend design |
-| VAR-OD-004 | Provide the exact VARIOM-approved Virtual Character questionnaire/Character Sheet source, or authorize adaptation of MAX Virtual Character v1.0 into VARIOM-specific UX and contract. | OPEN | The referenced VARIOM questionnaire and output contract are not present. | Character Studio, consent, UX |
-| VAR-OD-005 | Confirm monthly 8/12/16-post image/video distribution rules, or explicitly defer the distribution algorithm pending product/provider evidence. | OPEN | “Smart distribution” is not deterministic enough to implement. | Monthly Content |
-| VAR-OD-006 | Confirm exact image/video output ratios, pixel dimensions, formats and quality rules where current labels are insufficient; otherwise defer provider-specific values until capability verification. | OPEN | Portrait/Landscape labels do not establish technical output contracts. | Image/Video Studio, providers |
-| VAR-OD-007 | Decide which launch markets, currency/tax assumptions and payment/top-up scope are in first release. | OPEN | Affects commercial and legal contracts. | Billing, credits, launch |
-| VAR-OD-008 | Confirm content/asset retention and deletion behavior, account/brand deletion behavior and any legal retention constraints. | OPEN | Security/privacy and data lifecycle require explicit policy. | Storage, library, account |
-| VAR-OD-009 | Confirm supported signup/login/recovery and email-verification expectations for first release, or authorize a bounded technical recommendation. | OPEN | Establishes identity and account security contract. | Authentication |
-| VAR-OD-010 | Confirm voice/dialect behavior and whether any user-selectable voice controls are in scope for video/characters. | OPEN | Must not invent voice, language or synthetic identity behavior. | Video, Character Studio |
+| VAR-OD-002 | Use the latest owner-approved VARIOM identity image, incorporating the best refinements, as the canonical visual reference. The owner will provide the image directly to Claude Code; it is not required to be re-uploaded into this repository. | APPROVED — 2026-11-19 | Explicit owner instruction. The latest approved image supersedes the three similar recovered variants for implementation reference. | Visual identity and frontend styling; do not substitute another variant |
+| VAR-OD-003 | The owner will provide the intended UI Design Prompt directly to Claude Code. Do not recreate or replace it. | APPROVED — INPUT TO BE SUPPLIED BY OWNER | Explicit owner instruction, 2026-11-19. The prompt is an external implementation input and will be supplied by the owner; absence from this repository is not authorization to draft a substitute. | Frontend design; implementation must wait until the owner supplies the prompt |
+| VAR-OD-004 | Adapt the recovered MAX Virtual Character v1.0 product contract into a concise VARIOM-specific questionnaire and Character Sheet, preserving its applicable safeguards and not copying unrelated MAX UI. | APPROVED — ADAPTATION AUTHORIZED | Explicit owner approval of the recommendation, 2026-11-19; source and limits documented in audit 17. | Character Studio, consent, UX; adaptation remains documentation work until separately authorized for implementation |
+| VAR-OD-005 | Use intelligent image/video distribution for 8/12/16-post plans; defer fixed ratios and exact counts until quality, product and provider evidence is available. | APPROVED — RULE DEFERRED | Explicit owner approval of the recommendation, 2026-11-19. Do not invent fixed distribution ratios. | Monthly Content; detailed algorithm remains deferred |
+| VAR-OD-006 | Retain the output choices already specified in Product Vision V2.0; defer pixel dimensions, technical formats, resolution and provider-specific quality details until capability verification. | APPROVED — EXISTING PRODUCT BOUNDS RETAINED | Explicit owner approval of the recommendation, 2026-11-19. No new output option or 4K support is implied. | Image/Video Studio and provider contracts; technical details remain deferred |
+| VAR-OD-007 | Adopt a limited initial-market launch strategy and defer currency, tax, pricing, payment, top-up and subscription decisions until commercial and legal review. The exact first launch market remains to be named before launch planning is finalized. | PARTIALLY RESOLVED — MARKET STRATEGY ONLY | Explicit owner approval of the recommendation, 2026-11-19. No country, currency, tax treatment or payment method is inferred. | Launch planning, billing, credits and legal review; exact market and commercial terms remain open |
+| VAR-OD-008 | Adopt separate user-controlled deletion for generated assets, brands and accounts; distinguish legally required financial/security records from content; deletion must account for backups and processors. Exact retention periods and legal wording remain deferred pending jurisdiction-specific review. | APPROVED — PRINCIPLES ONLY | Explicit owner approval of the recommendation, 2026-11-19. | Storage, library, account and privacy; retention periods/legal details remain deferred |
+| VAR-OD-009 | First-release authentication uses email and password, email verification, password recovery by email and appropriate session/security controls; do not add social login by default. | APPROVED | Explicit owner approval of the recommendation, 2026-11-19. | Authentication; implementation details must follow the security contract |
+| VAR-OD-010 | Support Arabic and English; expose dialect/voice choices only where useful and verified as available; use licensed/provider-approved voices and do not imitate real-person voices without documented rights and consent. Keep voice controls limited and integrated into the relevant workflow. | APPROVED — CAPABILITY-BOUNDED | Explicit owner approval of the recommendation, 2026-11-19. Specific dialects and voice catalogue depend on provider verification. | Video and Character Studio; provider catalogue remains deferred |
 
 ## C. Deferred pending evidence or stage gate
 
@@ -51,6 +51,10 @@
 
 These are inherited only from VARIOM's controlling product baseline, not inferred from MAX.
 
+## F. Gate A decisions recorded on 2026-11-19
+
+The owner approved the latest refined identity image as the canonical visual reference and will supply it directly to Claude Code. The owner will also supply the intended UI Design Prompt directly; no replacement prompt is authorized. The owner approved the recommendations for Character Studio adaptation, intelligent Monthly Content distribution with ratios deferred, existing output bounds with technical details deferred, limited-market launch strategy with exact market/commercial terms deferred, deletion/retention principles with legal details deferred, email/password authentication, and capability-bounded Arabic/English voice and dialect behavior. See VAR-OD-002 through VAR-OD-010 for exact scope and remaining gates.
+
 - Four logical product systems: Brand Intelligence, Marketing & Creative Intelligence, Content Production, Content Library.
 - No Product Catalog; product photos are uploaded per relevant task.
 - Monthly Content: 8, 12 or 16 posts; images and videos only; no carousel; up to three marketing goals; no publishing-platform selection; monthly video maximum 10 seconds.
@@ -64,7 +68,8 @@ These are inherited only from VARIOM's controlling product baseline, not inferre
 ## E. Decision status summary
 
 - Confirmed owner decisions: 4
-- Resolved owner decisions (presentation-only scope): 1
-- Open owner decisions: 9
+- Resolved owner decisions: 9 (including VAR-OD-001 presentation-only)
+- Partially resolved owner decisions: 1 (VAR-OD-007; exact first market remains open)
+- Open owner decisions: 1 (remaining portion of VAR-OD-007)
 - Deferred evidence/legal/technical items: 4
 - No open item may be silently converted into an approved product requirement by Claude Code.
