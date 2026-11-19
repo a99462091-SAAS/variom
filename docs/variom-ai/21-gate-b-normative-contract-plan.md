@@ -108,4 +108,4 @@ Passing Gate B does not itself authorize implementation. Gate C must independent
 
 ## 8. Immediate execution slice
 
-Start with B-01, then B-02 and B-03. Do not begin detailed API or database design until their inputs are stable. The first deliverable is the requirements catalogue with IDs and acceptance criteria, not code or a technology stack decision.
+Historical planning note: the original authoring sequence is complete. Documents 22–35 contain the authored contract set; Documents 36–37 record Gate B and Gate C reviews. Do not interpret the original sequence above as pending work.
