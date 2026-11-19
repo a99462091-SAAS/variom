@@ -104,7 +104,7 @@ Gate B is complete only when:
 - Deferred owner/legal/provider/hosting decisions are explicit and do not appear as approved requirements.
 - No unresolved cross-document contradiction remains in the Gate B scope.
 
-Passing Gate B does not itself authorize implementation. Gate C must independently verify evidence, consistency, traceability and the implementation entry point; implementation requires a separate explicit owner authorization.
+Passing Gate B did not itself authorize implementation. Gate C's independent evidence, consistency, traceability and implementation-entry audit is now recorded in Document 37: documentation integrity PASS, application implementation entry NO-GO. Any implementation still requires a separate explicit owner authorization.
 
 ## 8. Immediate execution slice
 
