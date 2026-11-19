@@ -11,7 +11,7 @@
 | Full documentation readiness | NOT READY FOR IMPLEMENTATION | Audit 18; close P0 owner decisions and normative technical contracts |
 | Implementation target | BLOCKED | Owner must identify authorized VARIOM repository/branch or approve a separate repository |
 | Claude Code authority | BLOCKED | Root MAX CLAUDE.md conflicts with VARIOM task context; establish one unambiguous entry point |
-| Product/commercial plans | OPEN CONFLICT | Reconcile V2.0 Basic/Pro/Max limits with root VARIOM.md Starter/Pro/Agency and hidden-plan rule |
+| Product/commercial plans | PRESENTATION CONVENTION RESOLVED; COMMERCIAL MODEL DEFERRED | Starter / Pro / Agency shown as 1 / 3 / up to 8 brands for non-binding presentation only; no pricing, subscriptions, entitlements or enforcement approved. See VAR-OD-001. |
 | Functional requirements and acceptance | INCOMPLETE | Requirement IDs, preconditions, outputs, failure behavior and acceptance evidence per workflow |
 | Domain model and data dictionary | INCOMPLETE | Entities, relations, ownership, versions, retention and lifecycle |
 | API and schema contracts | INCOMPLETE | Request/response/error contracts and authorization |
@@ -39,9 +39,10 @@ Document 17 recovers the Smart Editing task catalogue, identity board variants a
 - Repository target established: `a99462091-SAAS/variom`; MAX remains source/reference only. See document 19 and decision `VAR-D-001`.
 - Working branch: `work/variom-documentation-readiness`.
 - Document 19 establishes the VARIOM authority hierarchy, source-adoption rules, execution boundaries and stop conditions.
-- Document 20 establishes the canonical Product Decisions Register: 4 confirmed owner decisions, 10 open owner decisions and 4 deferred evidence/legal/technical items.
+- Document 20 establishes the canonical Product Decisions Register: 4 confirmed owner decisions, 1 presentation-only decision, 9 open owner decisions and 4 deferred evidence/legal/technical items.
+- VAR-OD-001 is resolved for presentation only: Starter / Pro / Agency = 1 / 3 / up to 8 brands. The commercial model remains unapproved; do not price, bill, grant entitlements or enforce brand limits.
 - Root `CLAUDE.md` is VARIOM-specific; no MAX root instructions are inherited.
 
 ## Next action
 
-Continue Gate A by obtaining owner resolutions for the open product decisions, beginning with the plan names/brand limits and hidden-plan behavior. Technical/provider/legal choices remain deferred until their evidence gates. No application implementation, provider activation, paid generation, database migration, merge or deployment is authorized.
+Continue Gate A by obtaining owner resolutions for the remaining open product decisions, beginning with VAR-OD-002 (canonical identity-board variant). Technical/provider/legal choices remain deferred until their evidence gates. No application implementation, provider activation, paid generation, database migration, merge or deployment is authorized.
