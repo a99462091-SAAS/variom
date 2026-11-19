@@ -15,9 +15,9 @@ The Product Decisions Register records explicit owner decisions. The Product Vis
 
 ## Current authorization boundary
 
-The active phase is **Documentation Readiness**. Documentation and governance updates explicitly included in the active owner request are allowed.
+Gate B and Gate C documentation-integrity work are complete. The next possible phase is application-target readiness, but it is not active until the owner identifies the application repository/branch and explicitly authorizes that task. Documentation and governance updates explicitly included in the active owner request are allowed.
 
-**Application implementation is not authorized.** Do not create application code, select a production stack, add dependencies, configure providers, run paid generation, change billing/payment behavior, migrate data, deploy or publish externally unless separately and explicitly authorized.
+**Application implementation is not authorized.** Gate C's documentation-integrity PASS is not implementation approval. Do not create application code, select a production stack, add dependencies, configure providers, run paid generation, change billing/payment behavior, migrate data, deploy or publish externally unless separately and explicitly authorized.
 
 ## Product and source discipline
 
