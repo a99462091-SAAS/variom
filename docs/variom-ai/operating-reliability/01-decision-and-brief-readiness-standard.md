@@ -1,8 +1,8 @@
 # VARIOM — Task Readiness & Creative Brief Control
 
 **Document ID:** V-OR-01  
-**Version:** 0.2-draft  
-**Status:** DRAFT — OWNER REVIEW REQUIRED  
+**Version:** 0.2  
+**Status:** OWNER-APPROVED  
 **Authority:** Master Strategy V1.2 and the six approved knowledge documents remain controlling.  
 **Purpose:** Operational control for task readiness; not a separate customer workflow.
 
@@ -53,6 +53,6 @@ Validate at least the existing R1-N01–N10 scenarios: unsupported compatibility
 
 ## 8. Governance
 
-Draft operational companion only. Owner approval is required before treating it as approved shared policy or implementation requirements.
+OWNER-APPROVED as an operational standard. Platform implementation still requires separate explicit authorization.
 
 **Operating rule:** A polished prompt is not readiness evidence. Advance only when the approved direction, material facts, assets, constraints, and task acceptance criteria are sufficiently resolved. R1 is not execution authorization.
