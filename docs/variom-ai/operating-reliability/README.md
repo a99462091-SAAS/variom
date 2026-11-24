@@ -14,6 +14,10 @@ These standards translate the approved strategy's existing operating, provider-s
 | R3 | [Output Quality, Repair & Acceptance](03-output-quality-repair-and-acceptance-standard.md) | Inspect actual outputs, classify defects, control repairs, and determine acceptance |
 | R4 | [Simulation & Validation](04-simulation-and-validation-standard.md) | Test success and failure behavior, record evidence, and manage regression and owner review |
 
+## Test evidence
+
+- [perFIX POST 01 reliability replay — 2026-11-24](test-results/perfix-readiness-replay-2026-11-24.md): partial manual simulation of R1–R3 decision logic and document consistency. It is not a provider test, actual artifact inspection, or platform test.
+
 ## Mandatory boundaries
 
 - R1 readiness is not permission to execute.
