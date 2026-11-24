@@ -1,8 +1,8 @@
 # VARIOM — Output Inspection, Repair & Acceptance Control
 
 **Document ID:** V-OR-03  
-**Version:** 0.2-draft  
-**Status:** DRAFT — OWNER REVIEW REQUIRED  
+**Version:** 0.2  
+**Status:** OWNER-APPROVED  
 **Authority:** Master Strategy V1.2 and applicable approved knowledge documents.
 
 ## 1. Purpose
@@ -57,6 +57,6 @@ Validate existing R3-N01–N14: altered logo/model code; broken Arabic; unsuppor
 
 ## 8. Governance
 
-Draft operational companion. Owner acceptance required before adoption or implementation.
+OWNER-APPROVED as an operational standard. Platform implementation still requires separate explicit authorization.
 
 **Operating rule:** Inspect the actual artifact. Accept only evidence-supported results against task requirements; success notifications, polish, or personal preference are not substitutes.
