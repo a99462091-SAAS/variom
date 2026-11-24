@@ -27,7 +27,7 @@
 
 | Brand | Brand DNA | Monthly cycle | Status |
 |---|---|---|---|
-| perFIX | Complete draft prepared; awaiting explicit owner approval | Pending | Brand DNA ready for approval |
+| perFIX | OWNER-APPROVED | Pending | Brand DNA approved; ready for monthly content setup |
 | Brand 02 | Pending | Pending | Not started |
 | Brand 03 | Pending | Pending | Not started |
 
@@ -60,7 +60,7 @@
 
 ## Brand 01 — perFIX
 
-**Status:** Complete draft prepared from owner-provided answers; awaiting explicit owner approval.
+**Status:** OWNER-APPROVED — 2026-11-24.
 
 ### Brand essence
 
@@ -94,7 +94,7 @@ A Turkish-origin laser-printer toner brand positioned around dependable print qu
 - Use white and blue as the stated visual color direction.
 - Treat the Dropbox logo and samples as color references only; do not copy their layouts or broader creative style unless separately approved.
 
-**This synthesis is an ASSISTANT-PROPOSAL based on the owner's answers, not a final owner-approved positioning statement.**
+**Owner approval:** The owner approved this consolidated Brand DNA, including the communication direction, on 2026-11-24. The factual inputs remain subject to the evidence limitations listed below.
 
 ### Minimum open questions before finalizing Brand DNA
 
@@ -151,7 +151,7 @@ Do not fabricate metrics or claim campaign performance without real performance 
 |---|---|---|---|---|---|
 | 2026-11-24 | Setup | Simulation sidecar initialized | Repository commit | Begin Brand 01 discovery | Pending |
 | 2026-11-24 | Brand DNA template | Owner approved a compact, adaptive discovery template; broad questionnaire rejected as excessive | Owner confirmation in conversation | Use the approved five-part discovery template and reuse existing profile data | Approved |
-| 2026-11-24 | Brand 01 / perFIX | Owner completed the three follow-up fields: HP compatibility, print-quality warranty, and Kuwait market | Owner answers | Present consolidated Brand DNA for explicit approval; retain model-level compatibility and detailed warranty terms as unverified | Awaiting approval |
+| 2026-11-24 | Brand 01 / perFIX | Owner explicitly approved the consolidated Brand DNA | Owner confirmation in conversation | Use the approved profile as the basis for perFIX monthly content planning; retain model-level compatibility and detailed warranty terms as unverified | OWNER-APPROVED |
 
 ## Cross-brand final assessment
 
