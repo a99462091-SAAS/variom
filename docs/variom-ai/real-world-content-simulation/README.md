@@ -27,7 +27,7 @@
 
 | Brand | Brand DNA | Monthly cycle | Status |
 |---|---|---|---|
-| Brand 01 | Pending | Pending | Not started |
+| perFIX | Draft prepared; awaiting owner confirmation of open details | Pending | Discovery in progress |
 | Brand 02 | Pending | Pending | Not started |
 | Brand 03 | Pending | Pending | Not started |
 
@@ -57,6 +57,55 @@
 - Mark unknowns as **NOT PROVIDED / NOT VERIFIED** rather than guessing.
 - Separate owner-provided facts from assistant interpretations and proposals.
 - Present the resulting Brand DNA summary for owner review and approval before using it as the basis for the monthly content cycle.
+
+## Brand 01 — perFIX
+
+**Status:** Draft prepared from owner-provided answers; not yet owner-approved as a final Brand DNA.
+
+### Brand essence
+
+A Turkish-origin laser-printer toner brand positioned around dependable print quality, competitive pricing, and a quality warranty, offering a practical alternative to expensive original cartridges and low-quality generic toner.
+
+### Brand profile
+
+| Dimension | Current record | Evidence status |
+|---|---|---|
+| Brand name | perFIX | OWNER-PROVIDED |
+| Category | Laser-printer toner / ink cartridges (owner described the category as laser-printing inks) | OWNER-PROVIDED; product terminology to confirm |
+| Origin | Turkish product | OWNER-PROVIDED |
+| Differentiation | High-quality, reliable Turkish product with a warranty | OWNER-PROVIDED |
+| Core value | Quality at a competitive/affordable price | OWNER-PROVIDED |
+| Audience problem | Original cartridges are expensive; low-quality generic alternatives can produce poor print results and printing problems | OWNER-PROVIDED |
+| Purchase reasons | Turkish product, competitive price, and quality warranty | OWNER-PROVIDED |
+| Brand personality | Trustworthy, communicating confidence in Turkish quality while remaining close to the local consumer | OWNER-PROVIDED |
+| Language | Kuwaiti dialect | OWNER-PROVIDED |
+| Visual colors | White and blue | OWNER-PROVIDED |
+| Visual assets | Logo and sample references are stored in Dropbox under `/البراندات/perfix`; owner specified that these references are for colors only | OWNER-PROVIDED; folder contents listing observed |
+| Products / benefits | Laser-printer toner products; high quality, Turkish origin, warranty, competitive price, smooth printing without problems | OWNER-PROVIDED |
+
+### Brand communication direction — working synthesis
+
+- Lead with dependable print quality and value for money.
+- Position perFIX between expensive original cartridges and unreliable low-cost alternatives, without making unsupported competitor-wide claims.
+- Use a confident, reassuring, consumer-friendly voice in Kuwaiti dialect.
+- Use white and blue as the stated visual color direction.
+- Treat the Dropbox logo and samples as color references only; do not copy their layouts or broader creative style unless separately approved.
+
+**This synthesis is an ASSISTANT-PROPOSAL based on the owner's answers, not a final owner-approved positioning statement.**
+
+### Minimum open questions before finalizing Brand DNA
+
+1. Which printer brands/models are the perFIX cartridges compatible with? This is essential to avoid misleading product content.
+2. What exactly does the warranty cover, and for how long?
+3. Is Kuwait the actual sales market, or is Kuwaiti dialect simply the preferred communication style for another market?
+
+### Not yet provided / not verified
+
+- Exact product range, cartridge codes, and printer compatibility list.
+- Warranty duration, conditions, exclusions, and claim process.
+- Evidence supporting technical performance claims and Turkish origin, if these are to be used as factual advertising claims.
+- Exact target customer segments and sales geography.
+- Approved logo usage, fonts, and detailed visual rules beyond white/blue color direction.
 
 ## Monthly content cycle template
 
@@ -99,6 +148,7 @@ Do not fabricate metrics or claim campaign performance without real performance 
 |---|---|---|---|---|---|
 | 2026-11-24 | Setup | Simulation sidecar initialized | Repository commit | Begin Brand 01 discovery | Pending |
 | 2026-11-24 | Brand DNA template | Owner approved a compact, adaptive discovery template; broad questionnaire rejected as excessive | Owner confirmation in conversation | Use the approved five-part discovery template and reuse existing profile data | Approved |
+| 2026-11-24 | Brand 01 / perFIX | Owner supplied initial Brand DNA information; Dropbox perFIX asset folder located | Owner answers; Dropbox folder listing | Confirm only three material gaps: compatibility, warranty terms, and sales market | Pending |
 
 ## Cross-brand final assessment
 
