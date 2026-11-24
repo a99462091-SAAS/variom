@@ -110,7 +110,11 @@ A Turkish-origin laser-printer toner brand positioned around dependable print qu
 - Exact target customer segments and sales geography.
 - Approved logo usage, fonts, and detailed visual rules beyond white/blue color direction.
 
-### Owner approval checkpoint\n\nThe discovery inputs are complete for the current simulation scope. The owner has supplied the compatibility brand (HP), the warranty type (print-quality warranty), and the sales market (Kuwait). The Brand DNA is presented for explicit owner approval; this update does not itself imply approval.\n\n## Monthly content cycle template
+### Owner approval checkpoint
+
+The discovery inputs are complete for the current simulation scope. The owner has supplied the compatibility brand (HP), the warranty type (print-quality warranty), and the sales market (Kuwait). The Brand DNA is presented for explicit owner approval; this update does not itself imply approval.
+
+## Monthly content cycle template
 
 - Month / campaign period:
 - Business context and priority offer:
@@ -171,6 +175,117 @@ The owner approved all 12 ideas and their proposed formats without changes on 20
 
 Prepare one production prompt at a time. The owner will manually submit each prompt to Gemini and return the generated result for review. Evaluate each observed result against the approved Brand DNA, the relevant content idea, and the exact production prompt before moving to the next item.
 
+## Production test 01 — perFIX introductory static ad
+
+**Preparation status:** ASSISTANT-PROPOSAL — prompt prepared; not yet submitted to Gemini; no generated output observed.  
+**Approved content idea:** Item 01, “perFIX: your smart printing choice” — OWNER-APPROVED as part of the 12-piece plan.  
+**VARIOM content category:** P2 — Static Ad.  
+**Selected detailed-style candidate:** P2-002 — Headline-Led Ad. This is a historical MAX source ID in the initial shortlist, not a production-approved VARIOM style ID. It is selected as a manual validation candidate because this creative is led by a short Arabic headline and supporting brand facts.  
+**Style status:** Candidate only; not production-approved. The owner-approved policy requires actual provider testing, output review, and subsequent owner acceptance before a style can be approved.  
+**Marketing objective for this item:** Introduce perFIX and communicate its core value proposition to build initial awareness and trust.  
+**Primary message:** Laser-printing toner with print quality positioned at a competitive price.  
+**Working copy proposal (not an approved permanent slogan):** “جودة طباعة بسعر تنافسي”. Supporting line: “أحبار طباعة ليزر من perFIX”. Supporting facts may include “منتج تركي” and “ضمان جودة الطباعة” without adding unsupported details.  
+**Asset roles:** Original perFIX logo is a brand-identity asset and must be preserved. Dropbox visual samples are color references only, not layout/style references. No verified product packshot or cartridge model image is currently supplied in this simulation; do not fabricate branded packaging.  
+**Format:** Single static image, Instagram Portrait orientation. The reviewed product specification does not state an exact pixel ratio/dimension here; do not invent one.  
+**Guardrails:** No invented price, discount, technical test, yield, certification, warranty duration/terms, model-level HP compatibility, customer testimonial, or competitor comparison. Do not claim all HP models are compatible. If Arabic text cannot be rendered accurately, leave a clean text-safe area for separate typesetting; never output pseudo-Arabic or misspelled copy.  
+**Prompt methodology applied:** Reuse confirmed Brand DNA and approved idea; classify the content before choosing a style; choose one primary candidate style within P2; assemble confirmed facts, objective, category, style, asset roles, format, working copy, constraints, and success criteria; separate visible Arabic copy from visual instructions; preserve unknowns as unknown.  
+**Documentation limitation:** Product Vision V2.0 references separate Marketing Strategies, Copywriting Intelligence, and Prompt Engineering & Generation Intelligence documents, but standalone normative documents with those titles were not present in the inspected `main` tree. Their detailed methods are therefore NOT VERIFIED and are not claimed as applied. The prompt uses only the available Product Vision V2.0, Creative Intelligence Library, owner-approved taxonomy policy, and initial candidate shortlist.  
+**Supersession note:** The earlier generic prompt drafted before repository review is superseded and must not be used for this test.
+
+### Gemini production prompt — item 01
+
+```text
+Create ONE polished, publication-oriented static social media advertisement for the Kuwaiti laser-printer toner brand perFIX.
+
+VARIOM CREATIVE CLASSIFICATION
+- Content category: P2 — Static Ad.
+- Detailed style candidate: P2-002 — Headline-Led Ad.
+- This is a candidate style being manually validated, not an already approved production style.
+- Use one dominant Arabic headline and a clear supporting information hierarchy. Do not turn this into a product-only catalog photograph or a carousel.
+
+MARKETING PURPOSE
+Introduce perFIX to the Kuwait market and communicate its core value proposition: laser-printer toner positioned around print quality at a competitive price. Build initial awareness and trust.
+
+BRAND FACTS — USE ONLY THESE
+- Brand: perFIX.
+- Product: laser-printer toner / cartridges.
+- Market: Kuwait.
+- Product origin: Turkey.
+- Compatibility information supplied: HP brand only. Exact compatible printer models and cartridge codes are not supplied.
+- Warranty information supplied: print-quality warranty. Duration, terms, exclusions, and claim process are not supplied.
+- Brand colors: white and blue.
+- Brand voice: trustworthy, confident, clear, and close to the local consumer.
+- Language: natural Kuwaiti-friendly Arabic.
+
+ASSET INSTRUCTIONS
+- Use the supplied original perFIX logo as the authoritative logo asset. Preserve its exact spelling, proportions, colors, and shape; do not redraw, reinterpret, or replace it.
+- The supplied Dropbox visual samples are color references only. Do not copy their layouts or compositions.
+- If an authentic product photograph is supplied, use it as the product reference and preserve the exact visible product, package, label, and proportions.
+- If no authentic product photograph is supplied, do NOT invent a perFIX-branded cartridge, package, label, SKU, or model. Use a restrained, generic, unbranded toner-cartridge silhouette or an abstract toner-related visual that cannot be mistaken for the actual perFIX product.
+
+CREATIVE EXECUTION
+- Use a clean, premium, headline-led advertising composition.
+- Instagram Portrait orientation.
+- Predominantly white background with carefully controlled blue accents drawn from the brand identity.
+- Establish a strong visual hierarchy: headline first, brand/logo clearly visible, product/category visual second, supporting facts third.
+- Use generous negative space and a simple grid. Keep the design uncluttered and readable on a mobile screen.
+- Use typography and visual contrast to make the Arabic headline the dominant communication element.
+- Use only subtle visual cues for Turkish origin; do not add flags, seals, certifications, medals, or official-looking marks.
+- The design must feel credible and commercially polished, not like a generic AI template.
+
+ARABIC COPY — WORKING COPY FOR THIS TEST
+Main headline:
+"جودة طباعة بسعر تنافسي"
+
+Supporting line:
+"أحبار طباعة ليزر من perFIX"
+
+Optional short factual support points, only if the layout remains clean:
+"منتج تركي"
+"ضمان جودة الطباعة"
+
+These are item-level working copy, not an approved permanent brand slogan. Do not invent additional claims or rewrite the facts into stronger promises.
+
+STRICT FACTUAL AND VISUAL CONSTRAINTS
+- Do not state or imply compatibility with every HP printer or any specific model.
+- Do not invent price, discount, savings percentage, page yield, print-speed figures, technical test results, certifications, customer reviews, or comparative performance.
+- Do not expand the warranty beyond the exact phrase "ضمان جودة الطباعة".
+- Do not claim zero printing problems, guaranteed results beyond the stated warranty, or superiority over all competitors.
+- Do not fabricate product packaging or alter the supplied logo.
+- Do not include English filler text, gibberish, pseudo-Arabic, misspelled Arabic, or decorative text that looks like a claim.
+- Do not add social-platform logos, fake QR codes, phone numbers, website addresses, or contact details that were not supplied.
+
+ARABIC TEXT HANDLING
+Render the supplied Arabic copy exactly, with correct spelling, letter shaping, and right-to-left layout.
+If accurate Arabic rendering is not reliable, do not approximate the text. Instead, leave clean, intentionally reserved text-safe areas with no generated lettering so the exact copy can be typeset separately.
+
+SUCCESS CRITERIA
+The result passes only if:
+1. It reads immediately as a P2 static advertisement with a headline-led hierarchy.
+2. The original perFIX logo is preserved accurately.
+3. White and blue dominate without visual clutter.
+4. The core quality-at-competitive-price message is clear and not diluted by multiple competing claims.
+5. All Arabic copy is exact and legible, or a clean text-safe area is left for separate typesetting.
+6. No product, warranty, compatibility, price, certification, or performance facts are fabricated.
+7. The output is one finished static ad image, not a mockup, screenshot, multi-panel presentation, or set of alternatives.
+
+Generate one final image only.
+```
+
+### Validation record to complete after Gemini returns the image
+
+- Logo fidelity:
+- Brand color fidelity:
+- P2 category / P2-002 style fit:
+- Headline hierarchy and Arabic legibility:
+- Product visual truthfulness:
+- Factual-claim compliance:
+- Mobile readability:
+- Prompt adherence:
+- Repair required:
+- Candidate style disposition: pass / revise / reject (owner decision pending).
+- Actual generation time and cost: record only if observed/provided.
+
 ## Evaluation rubric
 
 Score each applicable dimension from 1–5 and include evidence:
@@ -194,7 +309,8 @@ Do not fabricate metrics or claim campaign performance without real performance 
 |---|---|---|---|---|---|
 | 2026-11-24 | Setup | Simulation sidecar initialized | Repository commit | Begin Brand 01 discovery | Pending |
 | 2026-11-24 | Brand DNA template | Owner approved a compact, adaptive discovery template; broad questionnaire rejected as excessive | Owner confirmation in conversation | Use the approved five-part discovery template and reuse existing profile data | Approved |
-| 2026-11-24 | Brand 01 / perFIX | Owner explicitly approved the consolidated Brand DNA | Owner confirmation in conversation | Use the approved profile as the basis for perFIX monthly content planning; retain model-level compatibility and detailed warranty terms as unverified | OWNER-APPROVED |\n| 2026-11-24 | Brand 01 / perFIX monthly plan | Owner approved all 12 content ideas and their formats: 4 short videos and 8 static designs, with no changes | Owner confirmation in conversation | Start production with item 01; hand off one prompt at a time and assess returned Gemini outputs | OWNER-APPROVED |
+| 2026-11-24 | Brand 01 / perFIX | Owner explicitly approved the consolidated Brand DNA | Owner confirmation in conversation | Use the approved profile as the basis for perFIX monthly content planning; retain model-level compatibility and detailed warranty terms as unverified | OWNER-APPROVED |
+| 2026-11-24 | Brand 01 / perFIX monthly plan | Owner approved all 12 content ideas and their formats: 4 short videos and 8 static designs, with no changes | Owner confirmation in conversation | Start production with item 01; hand off one prompt at a time and assess returned Gemini outputs | OWNER-APPROVED |
 
 ## Cross-brand final assessment
 
