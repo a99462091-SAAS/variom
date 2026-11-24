@@ -1,6 +1,6 @@
 # VARIOM — Operating Reliability Controls
 
-**Status:** Draft operational companion set — owner review required  
+**Status:** OWNER-APPROVED — Version 0.2  
 **Authority:** [Intelligent Advertising Strategy & Operating Framework V1.2](../intelligent-advertising-strategy/00-master-strategy.md) and the six approved knowledge documents.
 
 These controls operationalize relevant existing requirements. They are subordinate to the approved strategy and knowledge libraries; they do not create a second strategy, customer questionnaire, or parallel approval flow.
@@ -43,7 +43,7 @@ Do not create four separate task reports. A separate test-suite index is permitt
 
 ## Adoption path
 
-1. Owner reviews and accepts the revised drafts.
+1. Standards approved by the owner at Version 0.2.
 2. Run risk-based simulations and negative cases; use real provider/artifact/software tests only when separately authorized and actually executed.
 3. Resolve critical findings and run affected regression.
 4. Obtain explicit authorization before platform implementation.
