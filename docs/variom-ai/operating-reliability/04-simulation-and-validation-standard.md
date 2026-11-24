@@ -1,8 +1,8 @@
 # VARIOM — Reliability Simulation & Validation Control
 
 **Document ID:** V-OR-04  
-**Version:** 0.2-draft  
-**Status:** DRAFT — OWNER REVIEW REQUIRED  
+**Version:** 0.2  
+**Status:** OWNER-APPROVED  
 **Authority:** Master Strategy V1.2 and the six approved knowledge documents.
 
 ## 1. Purpose
