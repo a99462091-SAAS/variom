@@ -173,7 +173,7 @@ Severity is determined by impact, not by how visually noticeable the defect is. 
 9. Stop when the repair limit or another stopping condition is reached.
 10. Do not hide a failed attempt or unresolved defect from the final record.
 
-The maximum repair count must be taken from the approved product/workflow policy for the applicable production route. If no applicable limit is defined, do not invent one; use the configured policy or require owner decision before repeated repair attempts. The master strategy's bounded-repair principle remains controlling.
+The maximum repair count for VARIOM content production is **two repair attempts per content item**, consistent with the approved product constraint. A repair attempt means a new corrective execution after an inspected output has been found defective; internal review or diagnosis without a new execution is not an attempt. The limit does not authorize two attempts when a critical defect has no safe repair route: stop immediately in that case. After two unsuccessful repair attempts, stop and mark the output REJECTED or OWNER_ACCEPTANCE_REQUIRED as appropriate. Do not reset the count by changing providers, prompts, or versions unless an owner-approved policy explicitly defines a new task.
 
 ## 8. Acceptance states
 
