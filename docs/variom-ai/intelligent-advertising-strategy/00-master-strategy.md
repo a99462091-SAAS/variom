@@ -1,686 +1,625 @@
 # VARIOM — Intelligent Advertising Strategy & Operating Framework
 
-**Document status:** STRATEGIC PROPOSAL — PENDING OWNER REVIEW, SIMULATION, AND ACCEPTANCE  
-**Version:** 1.0-draft  
-**Date:** 2026-11-24  
-**Scope:** Target operating strategy for marketing planning, creative development, AI production, and quality control  
-**Authority:** This document defines a proposed future methodology. It does not approve product implementation, change existing product scope, or claim that any described capability is currently implemented.
+**Version:** 1.2
+**Date:** 2026-11-24
+**Status:** OWNER-APPROVED
+**Scope:** Brand intelligence, marketing planning, creative development, AI production, and quality assurance.
+**Authority:** This document defines the owner-approved strategic methodology. It does not claim that the described knowledge libraries or capabilities are already implemented. Platform adoption and implementation remain subject to separate explicit authorization.
 
 ---
 
-## 1. Executive Summary
+## 1. Strategic Vision
 
-VARIOM is intended to operate as an intelligent advertising and content-production platform. It should not behave as a random content generator, a prompt wrapper, or a collection of disconnected creative tools.
+VARIOM is an intelligent advertising and content-production platform designed to think, plan, create, direct production, and evaluate results.
 
-The target is a system that understands the brand and its commercial context, develops a suitable marketing direction, creates relevant content concepts, translates each approved concept into a coherent creative treatment, directs specialized AI providers, and evaluates the resulting work against explicit requirements.
+It must not operate as a simple content generator or a prompt interface connecting customers to AI providers.
 
-The operating principle is:
+Its responsibility is to understand the brand and its business context, determine the appropriate marketing direction, develop relevant creative solutions, direct specialized production capabilities, and verify the resulting content.
 
-**Understand the brand → Plan with marketing intent → Develop the creative solution → Produce and verify the result.**
+**Core operating principle:**
 
-The platform performs the complex analysis and selection internally while keeping the customer's experience simple. The customer supplies or confirms essential business information, reviews meaningful decisions where required, and receives finished content. The customer should not be expected to navigate large technical libraries, select obscure design taxonomies, or write production prompts.
+**Understand → Strategize → Create → Produce → Verify.**
 
-The strategy is built around:
+VARIOM handles complex reasoning internally while maintaining a simple customer experience.
 
-1. Four sequential operating stages.
-2. Six structured knowledge documents.
-3. One cross-stage selection and decision framework.
-4. Explicit decision gates before planning, creative development, and production.
-5. Quality assurance and learning across the complete workflow.
-6. Evidence-based improvement through controlled simulation and, later, real performance data.
+The customer provides essential information, reviews meaningful decisions, and receives professionally developed content without needing to understand technical creative classifications, production methods, or prompt engineering.
 
-This is a target methodology to be validated. It must not be represented as an implemented platform capability until separately built and accepted.
+The strategic standard is:
+
+**Maximum Quality — Minimum Complexity.**
 
 ## 2. Strategic Objectives
 
-The methodology must:
+The methodology must enable VARIOM to:
 
-- Improve the relevance and strategic value of generated content.
-- Maintain consistency with each brand's identity, positioning, audience, products, and communication rules.
-- Select strategies, ideas, content categories, creative styles, typography systems, and copywriting approaches for clear reasons.
-- Reduce arbitrary decisions, generic outputs, unsupported claims, and avoidable generation attempts.
-- Give AI providers complete, coherent, production-ready direction rather than vague prompts.
-- Make quality review systematic and repeatable.
-- Preserve a simple customer experience despite sophisticated internal reasoning.
-- Learn from observed production quality and verified performance evidence without overstating what limited data proves.
+1. Understand each brand and preserve its identity.
+2. Develop marketing decisions based on objectives, audiences, and context.
+3. Generate relevant and differentiated content ideas.
+4. Develop coherent creative treatments for approved ideas.
+5. Select suitable production providers based on verified capabilities.
+6. Improve output quality and reduce avoidable generation attempts.
+7. Protect factual accuracy and prevent unsupported claims.
+8. Maintain consistent quality across different brands and content types.
+9. Learn from actual quality assessments and reliable performance evidence.
+10. Keep the customer’s experience simple and efficient.
 
 ## 3. Foundational Principles
 
-### 3.1 Brand-first decisions
+### 3.1 Brand-first
 
-Every marketing and creative decision must be evaluated against the available Brand DNA and relevant brand assets. A choice that is visually attractive in isolation is not necessarily suitable for a particular brand.
+All decisions must respect the available Brand DNA, approved assets, identity, positioning, and restrictions.
 
-### 3.2 Marketing purpose before creative treatment
+### 3.2 Marketing before creativity
 
-Creative choices must serve a defined marketing objective and audience need. The platform must not select a visual style first and then invent a rationale for it.
+Creative treatments must serve a defined communication or marketing purpose.
 
 ### 3.3 Evidence before claims
 
-The system may use only supplied, verified, or otherwise explicitly authorized facts when making product, service, performance, compatibility, warranty, certification, price, or comparative claims. Missing facts remain unknown. The system must not fill gaps with plausible-sounding assumptions.
+Unknown information must remain unknown. The system must not invent specifications, benefits, compatibility, guarantees, certifications, or performance evidence.
 
-### 3.4 Selection is reasoned, not random
+### 3.4 Reasoned selection
 
-The system must compare candidate options against relevant inputs, hard constraints, suitability criteria, and documented evidence. Random rotation may be used only for a deliberately designed experiment after eligibility and quality constraints have been satisfied; it must never replace suitability analysis.
+Selections must be based on eligibility, relevance, compatibility, and available evidence rather than arbitrary choice.
 
-### 3.5 Libraries are structured knowledge, not inspiration galleries
+### 3.5 Internal intelligence, simple experience
 
-Each knowledge item must have a defined purpose, eligibility conditions, required inputs, exclusions, relationships, execution guidance, and quality criteria. Examples support understanding but do not replace selection rules.
+VARIOM performs detailed internal analysis but presents only meaningful customer decisions and approvals.
 
-### 3.6 Internal complexity, simple customer experience
+### 3.6 Approval boundaries
 
-The platform may reason across many candidates internally. It should present the customer with concise, meaningful decisions and approvals rather than technical menus.
+Approval of one stage does not automatically approve subsequent work. Each approval applies only to its defined scope.
 
-### 3.7 Separate approval from generation
+### 3.7 Quality throughout the workflow
 
-Approval of a monthly plan or concept does not automatically approve final copy, creative direction, generated assets, or publication. Each approval applies only to the item and scope explicitly presented.
+Quality must be evaluated at the relevant stages, not only after generation.
 
-### 3.8 Quality is more than visual attractiveness
+### 3.8 Evidence-led learning
 
-Quality includes strategic relevance, factual accuracy, brand consistency, communication clarity, creative execution, technical suitability, and compliance with the approved brief.
+Observed results must be distinguished from assumptions and recommendations. Limited simulation results must not be represented as proven marketing effectiveness.
 
-### 3.9 No unsupported certainty
+### 3.9 Minimum sufficient complexity
 
-The system must distinguish a strong recommendation from a verified result. It must expose uncertainty internally, request missing information when material, and abstain from unsupported choices.
+The system must use the smallest set of rules, knowledge, decisions, and customer interactions sufficient to achieve the required quality.
 
-### 3.10 Continuous improvement must be evidence-led
-
-A single successful or unsuccessful output is not sufficient to establish that a strategy, idea, style, typography system, or provider is generally superior. Learning must account for context, sample size, and confounding factors.
+It must not introduce a classification, approval, scoring rule, or processing step unless it provides a demonstrable operational benefit.
 
 ## 4. The Four Operating Stages
 
 ### Stage 1 — Brand Intelligence
 
-**Purpose:** Build a reliable understanding of the brand that can guide all subsequent decisions.
+**Purpose:** Establish a reliable and reusable understanding of the brand.
 
-The platform collects, organizes, and maintains relevant information, including:
+The platform gathers and organizes relevant information:
 
-- Brand name and business activity.
-- Products and services relevant to the requested work.
-- Target audience and known audience needs.
-- Brand positioning, differentiation, and value proposition.
+- Brand identity and business activity.
+- Products and services.
+- Audience and known audience needs.
+- Positioning and value proposition.
 - Brand personality and desired perception.
-- Voice, tone, language, and dialect where specified.
-- Visual identity, colors, typography guidance, and visual references.
-- Available brand assets and their permitted uses.
-- Verified facts, claims, limitations, and prohibited assumptions.
-- Market and competitor information when supplied or reliably researched for an authorized task.
+- Voice, tone, language, and dialect.
+- Visual identity and approved assets.
+- Verified facts, claims, restrictions, and unknowns.
+- Relevant market context when available and authorized.
 
 **Operating rules:**
 
-1. Reuse information already available; do not ask the customer to repeat it.
-2. Ask only for missing information that materially affects the work.
-3. Distinguish owner-provided facts from analysis, assumptions, and recommendations.
-4. Mark unavailable or unverified information explicitly.
-5. Never invent product specifications, benefits, compatibility, guarantees, credentials, or customer evidence.
-6. Present the resulting Brand DNA for owner review and approval before treating it as the authoritative brand basis.
+1. Reuse known information instead of asking the customer to repeat it.
+2. Ask only for missing information that materially affects the requested work.
+3. Distinguish supplied facts, verified facts, analysis, and assumptions.
+4. Preserve unknowns and restrictions.
+5. Never fabricate missing product or brand information.
+6. Present the Brand DNA to the Brand Owner or authorized customer representative for review and approval.
+7. Changes to previously approved Brand DNA must be identified and reviewed according to the customer's authorization. Conflicting information must not silently replace previously approved facts or restrictions.
 
-**Output:** A structured, owner-approved Brand DNA record, its supporting assets, and an explicit record of unknowns and restrictions.
+**Output:** An approved Brand DNA record with relevant assets, verified information, and documented restrictions.
 
-**Decision gate:** Is the available brand information sufficient and reliable for the requested marketing task? If not, ask only the most important missing question or proceed only with options that do not depend on the missing information.
+**Decision gate:** Is the information sufficient for the requested task? If not, ask only for the most important missing information or proceed within safe, known boundaries.
 
-### Stage 2 — Marketing Intelligence: Monthly Planning
+### Stage 2 — Marketing Intelligence
 
-**Purpose:** Determine what the brand should communicate, to whom, and why during the requested planning period.
+**Purpose:** Determine what the brand should communicate, to whom, and why.
 
-The platform uses Brand DNA and the customer's stated goals to:
+Marketing Intelligence must support two operating modes without creating separate strategic systems.
 
-1. Understand the primary marketing objective and any supporting objectives.
-2. Interpret the relevant audience, needs, objections, motivations, and context.
-3. Identify suitable marketing strategies from the Content Marketing Strategies Library.
-4. Develop or select content concepts from the Content Ideas & Concepts Library.
-5. Assign each proposed content item a clear role in the overall plan.
-6. Balance the plan so that it does not repeat the same message or rely excessively on one approach.
-7. Check feasibility against available brand facts, assets, channels, formats, and production constraints.
-8. Present the monthly plan for customer review and approval.
+**A. Comprehensive planning**
 
-**The plan must define, at minimum, for each content item:**
+Used for monthly plans, campaigns, and coordinated content programs.
 
-- Intended objective and its relationship to the monthly goal.
-- Target audience or relevant audience segment.
-- Selected marketing strategy and the reason for selection.
-- Core idea or concept and the problem, need, desire, or message it addresses.
-- Key message and verified supporting facts.
-- Proposed content format or category at the appropriate planning level.
-- Intended audience response or call to action, where appropriate.
-- Any required product information or assets.
-- Known limitations or unresolved dependencies.
+VARIOM:
+
+1. Understands the business objective.
+2. Identifies relevant audience needs and context.
+3. Selects suitable marketing strategies.
+4. Develops or selects relevant content concepts.
+5. Assigns each content item a clear role.
+6. Checks diversity, consistency, and feasibility.
+7. Presents the proposed plan for approval.
+
+Each proposed item should identify its objective, audience, strategy, core concept, message, supporting facts, intended format, and known dependencies.
+
+**B. Individual content requests**
+
+Used for a single design, video, content edit, or other individual task.
+
+VARIOM uses the available Brand DNA and the task’s objective and context to determine the necessary marketing direction.
+
+It must not force the customer through a complete monthly-planning process when the request does not require one.
 
 **Planning rules:**
 
-- A content calendar is not, by itself, a marketing strategy.
-- Every item must have a clear purpose and a role in the overall plan.
-- The platform must not force every strategy into every monthly plan.
-- The platform must avoid repetitive ideas that merely change wording or layout.
-- The platform must not promise a commercial outcome that cannot be substantiated.
-- A proposed plan remains pending until the customer approves it.
+- Every content item must have a meaningful purpose.
+- Ideas must be relevant to the brand and audience.
+- Repetition must be avoided.
+- The platform must not force every strategy into every plan.
+- Commercial outcomes must not be promised without supporting evidence.
+- Plans and material concepts remain pending until the required approval is obtained.
 
-**Output:** An owner-approved monthly content plan with traceable strategy and idea selections.
+**Output:** An approved marketing direction, whether a comprehensive plan or an individual task direction.
 
-**Decision gate:** Does the plan collectively serve the stated goals, fit the brand and audience, contain sufficiently distinct ideas, and remain feasible with the available facts and production constraints?
+**Decision gate:** Does the proposed direction serve the objective, suit the brand and audience, and remain feasible?
 
-### Stage 3 — Creative Intelligence: Creative Development
+### Stage 3 — Creative Intelligence
 
-**Purpose:** Transform each approved content idea into a complete, coherent creative solution before any generation request is sent to an AI provider.
+**Purpose:** Transform the approved marketing direction into a coherent creative solution.
 
-For each approved item, VARIOM must:
+VARIOM must determine the appropriate combination of:
 
-1. Re-read the approved idea, objective, audience, message, and relevant Brand DNA.
-2. Select the appropriate content category and format.
-3. Select a suitable creative style from the Creative Content Taxonomy & Styles Library.
-4. Select a typography system from the Creative Typography Systems Library when the output requires designed text.
-5. Develop the copy and messaging using the Copywriting & Creative Messaging Framework.
-6. Define the visual concept, composition, hierarchy, scene or shot logic, and asset requirements as applicable.
-7. Specify brand elements, factual boundaries, exclusions, and technical constraints.
-8. Reconcile all selected elements so that the message, style, typography, and composition reinforce one another.
-9. Prepare the Creative Production Brief and provider-ready production instructions.
+- Content category and format.
+- Creative style.
+- Typography treatment when required.
+- Copywriting and messaging approach.
+- Visual concept and composition.
+- Scene or shot structure where applicable.
+- Required assets and references.
+- Production requirements and restrictions.
 
-**The six knowledge documents are defined in Section 5.**
+These are internal creative decisions, not separate customer configuration tasks.
 
-**Creative development rules:**
+The system must select only the knowledge and creative components relevant to the requested output.
 
-- Content objective, content category, creative style, format, production method, and copywriting approach are distinct concepts. They must not be treated as interchangeable labels.
-- A category must be selected before choosing a style that depends on that category.
-- A typography system must serve the message, layout, language, and visual hierarchy; it must not be selected merely because it is fashionable.
-- Copy must preserve the approved message, brand voice, and factual boundaries.
-- The system must not introduce unsupported claims to make a concept more persuasive.
-- The system must not use a creative treatment that conflicts with brand restrictions or the intended audience.
-- If an essential asset or fact is missing, the system must identify the dependency rather than fabricate it.
-- The system may generate multiple internal candidates, but it should select and present a coherent recommendation rather than burden the customer with a technical catalogue.
+The depth and detail of the Creative Production Brief must be proportionate to the task. A simple design request must not require an unnecessarily extensive brief.
 
-**Output:** A complete Creative Production Brief and production-ready instructions for the approved content item.
+**Operating rules:**
 
-**Decision gate:** Is the creative brief complete, internally consistent, brand-aligned, factually safe, and feasible for at least one available production route?
+1. Preserve the approved objective, idea, and message.
+2. Select compatible creative elements.
+3. Avoid unnecessary creative complexity.
+4. Adapt the treatment to the brand, audience, language, and format.
+5. Never introduce unsupported claims.
+6. Identify missing essential assets rather than fabricating them.
+7. Generate and compare internal candidates when useful.
+8. Present a coherent recommendation rather than a technical catalogue.
+
+**Output:** A complete, task-appropriate Creative Production Brief and suitable production instructions.
+
+**Decision gate:** Is the creative solution coherent, brand-aligned, factually safe, and feasible?
 
 ### Stage 4 — AI Production and Quality Control
 
-**Purpose:** Execute the approved creative direction through a suitable AI provider, then verify the actual result before acceptance.
+**Purpose:** Execute the approved creative direction through suitable production capabilities and verify the actual output.
 
-VARIOM is responsible for directing and evaluating the work. The AI provider is a specialized execution capability; it does not replace VARIOM's marketing judgment, brand knowledge, or quality responsibility.
+VARIOM remains responsible for direction, coordination, and quality. Specialized AI providers perform the execution tasks.
 
-**A. Provider selection**
+**A. Production routes**
 
-The platform selects a provider based on demonstrated capabilities relevant to the task, such as:
+The stage supports specialized routes according to the task:
 
-- Requested output type and format.
-- Quality requirements.
-- Language and text-rendering needs.
-- Image or video capabilities.
-- Reference-image and asset handling.
-- Duration, aspect ratio, resolution, and other technical requirements.
-- Reliability, latency, availability, and cost.
-- Known limitations and observed failure patterns.
+- Image generation.
+- Video generation.
+- Video editing and montage.
+- Existing-content editing and enhancement.
+- Other approved content-production operations.
 
-Provider selection must be capability- and evidence-based. A provider must not be described as suitable for a requirement that has not been verified.
+These are production routes within the same operating stage, not separate strategic stages.
 
-**B. Pre-generation gate**
+Each route uses only the requirements and quality criteria relevant to its task.
 
-Before spending credits or sending a request, verify:
+**B. Provider selection**
 
-- The content item and its approvals are valid.
-- The Creative Production Brief is complete.
-- Required source assets are present and usable.
-- Facts and claims are supported.
-- The chosen category, style, typography, and copy are compatible.
-- The selected provider supports the required output.
-- Technical requirements are explicit.
-- The request does not contradict brand restrictions or safety requirements.
-- The expected cost and material execution constraints are disclosed according to product policy.
+Select providers according to available evidence about their capabilities, including:
 
-If a critical requirement fails, stop before generation and resolve it.
+- Output type and quality.
+- Language and text rendering.
+- Reference and asset handling.
+- Format, duration, resolution, and technical requirements.
+- Reliability and availability.
+- Cost and latency.
+- Known limitations and failure patterns.
 
-**C. Generation and inspection**
+The system must distinguish between:
 
-After generation, evaluate the actual output against the brief. Do not treat successful API completion as proof of creative success.
+1. **Provider-declared capabilities:** Requirements or features stated by the provider but not independently verified by VARIOM.
+2. **Observed capabilities:** Capabilities demonstrated in actual usage or testing, with the tested conditions and limitations recorded.
+3. **Repeatedly validated capabilities:** Capabilities demonstrated consistently across sufficiently relevant tests or production cases.
 
-**D. Post-generation quality gate**
+Evidence must be interpreted according to its source, recency, scope, and reliability.
 
-Evaluate at least:
+A single successful test must not be treated as proof of universal reliability.
 
-1. Marketing objective and message alignment.
-2. Brand identity and visual consistency.
-3. Product or service representation.
-4. Factual accuracy and claim safety.
-5. Copy accuracy, spelling, readability, and language suitability.
-6. Typography hierarchy and legibility where applicable.
-7. Composition, visual balance, and creative execution.
-8. Technical format and output requirements.
-9. Compliance with the approved brief and supplied assets.
+Do not assume that a provider supports an unverified requirement.
+
+**C. Pre-generation gate**
+
+Before paid execution, verify:
+
+- The task and required approvals.
+- The completeness of the production brief.
+- Required assets.
+- Factual and brand restrictions.
+- Provider suitability.
+- Technical requirements.
+- Expected cost and relevant execution constraints.
+- The required financial authorization or applicable pre-approved spending authority.
+
+Paid production must not begin without the required authorization. The authorization must cover the relevant task and spending scope; a technical or creative approval alone does not constitute financial authorization.
+
+Pre-approved spending authority is valid only within its explicitly defined scope, limits, and conditions. Any execution outside that authority requires additional authorization.
+
+Stop if a critical requirement is not satisfied.
+
+**D. Production and quality inspection**
+
+Evaluate the actual output against the applicable brief and quality criteria.
+
+Successful API execution does not establish creative success.
+
+Quality criteria must be appropriate to the production route rather than forcing identical inspection requirements across images, videos, montage, and editing.
 
 **E. Repair and acceptance**
 
-- Identify specific defects and their impact.
-- Repair only what is defective; do not unnecessarily regenerate satisfactory work.
-- Apply bounded repair attempts and explicit stopping conditions.
-- Re-evaluate the repaired result against the same acceptance criteria.
-- If the result still fails, stop and report the limitation rather than silently lowering the standard.
-- Save and label the final item as approved only after it passes the applicable quality gate and any required owner approval.
+- Identify specific defects.
+- Repair only what requires correction.
+- Apply bounded repair attempts.
+- Re-evaluate the result.
+- Stop when the repair limit or stopping condition is reached.
+- Preserve failed or unresolved status where appropriate.
+- Mark content final only after passing the applicable quality gate and obtaining required approval.
 
-**Output:** Verified final content, its approval status, and a traceable record of provider, cost, brief, generation attempts, quality findings, and repairs.
+Repairs must preserve the approved creative direction and material message. Any repair that materially changes them requires the relevant approval before execution.
+
+Final acceptance criteria must reflect the content type, intended use, approved brief, brand requirements, and applicable technical constraints. No single generic quality standard should replace task-specific evaluation.
+
+**Output:** Verified content, its status, and a traceable record of production, cost, quality findings, and repairs.
 
 ## 5. The Six Knowledge Documents
 
-The strategy requires six coordinated knowledge documents. They are separate knowledge domains, but their definitions and identifiers must work together.
+The strategy is supported by six independent but coordinated knowledge documents.
+
+They must share consistent terminology and identifiers.
 
 ### Document 1 — Content Marketing Strategies Library
 
-**Purpose:** Give VARIOM a structured set of marketing strategies from which it can select a suitable approach for a brand, audience, objective, and planning context.
-
-Each strategy entry should include:
-
-- Stable strategy ID and canonical name.
-- Definition and intended marketing role.
-- Suitable objectives and audience conditions.
-- Problems, needs, motivations, or buying situations it addresses.
-- Required inputs and evidence.
-- Suitable content roles and possible formats.
-- When to use and when not to use it.
-- Risks, limitations, and factual dependencies.
-- Compatibility and conflict notes with other strategies.
-- Examples of correct application.
-- Evaluation criteria and evidence requirements.
-
-The library must not imply that every strategy is suitable for every brand or objective.
+Defines available marketing strategies, their purposes, suitable objectives, audience conditions, required information, limitations, exclusions, and evaluation criteria.
 
 ### Document 2 — Content Ideas & Concepts Library
 
-**Purpose:** Provide reusable idea patterns and creative concepts that can be adapted to the actual brand, product, audience, and marketing objective.
+Defines reusable idea patterns and concept structures that VARIOM adapts to the actual brand, product, audience, and objective.
 
-Each idea entry should include:
-
-- Stable idea ID and canonical name.
-- Core concept and explanation.
-- Audience insight or communication tension.
-- Intended objective and suitable strategies.
-- Suitable products, services, and contexts.
-- Message structure and possible narrative direction.
-- Possible execution formats.
-- Required facts, assets, and permissions.
-- Adaptation guidance and examples.
-- Repetition risks and unsuitable conditions.
-- Quality criteria.
-
-The library is not a static list of ready-made posts. It should help VARIOM generate original, brand-relevant concepts by adapting documented idea patterns. It must distinguish a reusable pattern from a finished idea for a specific brand.
+It is not a collection of ready-made generic posts.
 
 ### Document 3 — Creative Content Taxonomy & Styles Library
 
-**Purpose:** Define the content categories and the creative styles that can be used within them, with clear boundaries and relationships.
+Defines the relevant content categories and creative styles, their boundaries, suitability, execution characteristics, compatibility, and requirements.
 
-Each category or style entry should include:
-
-- Stable ID, canonical name, and definition.
-- Whether it is a category, subcategory, or style.
-- Supported output types and formats.
-- Intended communication and visual role.
-- Suitable objectives and idea patterns.
-- Required creative components and assets.
-- Composition, visual treatment, and execution rules.
-- Suitability conditions and exclusions.
-- Compatibility with typography and copy approaches.
-- Provider capabilities required.
-- Reference examples and quality criteria.
-
-The taxonomy must prevent confusion between objective, topic, category, format, style, production method, and copywriting approach. Existing or proposed identifiers must not be assumed valid until explicitly defined and governed in this new knowledge system.
+It must distinguish content category, format, style, topic, and production method.
 
 ### Document 4 — Creative Typography Systems Library
 
-**Purpose:** Help VARIOM select a typography treatment that improves message comprehension, visual hierarchy, brand consistency, and the intended creative impact.
+Defines typography treatments and systems, including hierarchy, composition, language and script considerations, legibility, and brand compatibility.
 
-Each system or template should include:
-
-- Stable ID and canonical name.
-- Definition and visual characteristics.
-- Appropriate communication roles.
-- Suitable headline and body-copy structures.
-- Hierarchy, scale, weight, alignment, spacing, and placement guidance.
-- Language and script considerations, including Arabic and Latin where relevant.
-- Legibility and accessibility considerations.
-- Brand compatibility and adaptation rules.
-- Suitable categories and styles.
-- Exclusions and common failure patterns.
-- Examples and quality criteria.
-
-Typography systems are not simply font-name collections. They describe how text is structured and integrated into the composition. Font availability and licensing must be treated separately from typographic treatment.
+It is not merely a list of fonts.
 
 ### Document 5 — Copywriting & Creative Messaging Framework
 
-**Purpose:** Ensure that every message is clear, persuasive where appropriate, brand-consistent, audience-relevant, and factually supportable.
-
-The framework should cover:
-
-- Message strategy and hierarchy.
-- Headline and hook patterns.
-- Advertising copy structures.
-- Benefit and value communication.
-- Problem-solution messaging.
-- Objection handling.
-- Calls to action.
-- Short-form video scripts and spoken copy.
-- Platform- and format-aware writing.
-- Brand voice, tone, language, and dialect adaptation.
-- Arabic and English writing considerations.
-- Claim substantiation, disclaimers, and prohibited invention.
-- Editing, clarity, brevity, and proofreading standards.
-- Quality criteria and examples.
-
-Copywriting methods must be selected according to the message, objective, audience, and evidence available. A persuasive formula must never override factual accuracy or brand voice.
+Defines message strategy, headline and hook structures, advertising copy, value communication, objection handling, calls to action, video scripts, language adaptation, and factual safeguards.
 
 ### Document 6 — Intelligent Selection & Decision Framework
 
-**Purpose:** Define the common decision logic that governs how VARIOM selects and combines strategies, ideas, categories, styles, typography systems, copywriting approaches, and production providers.
+Defines the common decision logic used to select and combine relevant knowledge and production capabilities.
 
-This is the central decision framework, not another menu of creative options.
+It governs:
 
-It must define:
+- Decision inputs and dependencies.
+- Eligibility and exclusions.
+- Comparative suitability.
+- Evidence and confidence.
+- Compatibility.
+- Fallback and abstention.
+- Explanation and traceability.
+- Owner overrides within the relevant authority.
+- Use of knowledge versions and their approval status.
+- Use of reliable learning evidence in future recommendations.
 
-- The input data required for each decision.
-- The order and dependencies of decisions.
-- Mandatory eligibility conditions and hard exclusions.
-- Suitability criteria for comparing eligible candidates.
-- Evidence quality and confidence handling.
-- Compatibility rules across selected elements.
-- Tie-breaking and fallback behavior.
-- Missing-data and abstention behavior.
-- Explanation and traceability requirements.
-- Experimentation rules and learning boundaries.
-- Governance for adding, revising, retiring, and versioning library entries.
+It is the central decision mechanism, not another library of creative options.
 
-The detailed operating rules are specified in Section 6.
+Its responsibility is to govern how available knowledge and capabilities are selected and used. It does not independently authorize changes to approved knowledge or general platform policies.
 
-## 6. Intelligent Selection & Decision Logic
+**Important:** The six documents are maintained as separate repository files, developed and reviewed one at a time.
+
+## 6. Intelligent Selection & Decision Framework
+
+The framework must provide one coordinated decision mechanism rather than multiple independent selection systems.
 
 ### 6.1 Decision inputs
 
-A decision may use only relevant, available information from:
+Use only relevant available information:
 
-- Approved Brand DNA and its verified assets.
-- The customer's stated objective and planning instructions.
-- Audience information and known market context.
-- The approved monthly plan and content-item brief.
-- Verified product or service facts.
-- Channel, format, and technical constraints.
-- Knowledge-library metadata and documented rules.
-- Verified provider capabilities and observed quality evidence.
+- Approved Brand DNA.
+- Task objective and instructions.
+- Audience and market context.
+- Approved plan or concept where applicable.
+- Verified product and service facts.
+- Relevant assets and constraints.
+- Knowledge-library entries and their approval status.
+- Provider capabilities and available quality evidence.
 
-The system must record which inputs materially influenced a decision. It must not treat unavailable information as if it were known.
+### 6.2 Decision process
 
-### 6.2 Ordered selection
+The general process is:
 
-The general selection sequence is:
+1. Understand the task.
+2. Retrieve relevant information.
+3. Apply mandatory restrictions.
+4. Identify eligible candidates.
+5. Compare suitability.
+6. Check compatibility.
+7. Select the best-supported solution.
+8. Record the rationale and uncertainty.
+9. Ask for clarification or abstain when necessary.
 
-1. Confirm the task and its approved objective.
-2. Identify relevant brand, audience, product, and market inputs.
-3. Apply mandatory constraints and exclusions.
-4. Retrieve only eligible candidates from the relevant library.
-5. Compare candidates against the task-specific suitability criteria.
-6. Check compatibility with choices already made.
-7. Select the strongest supported option or a compatible combination.
-8. Record the rationale, evidence, assumptions, and confidence.
-9. Abstain or request clarification if no candidate is sufficiently supported.
+The process must adapt to the task. It must not execute irrelevant selection steps merely to follow a fixed checklist.
 
-The precise sequence may differ by decision type, but dependencies must be respected. For example, a style that is only valid for a particular content category cannot be selected before that category is established.
+### 6.3 Eligibility and suitability
 
-### 6.3 Hard constraints versus comparative criteria
+Hard constraints determine whether a candidate is permitted and technically or factually eligible.
 
-The framework must separate two kinds of rules:
+Comparative criteria determine which eligible candidate is most suitable.
 
-**Hard constraints:** Conditions that must be satisfied. Examples include factual accuracy, brand prohibitions, required assets, permitted claims, output compatibility, and provider capability. A candidate that violates a hard constraint is ineligible regardless of its score on other dimensions.
+A candidate that violates a mandatory condition must not be rescued by a high comparative score.
 
-**Comparative criteria:** Factors used to compare candidates that have already passed eligibility. Examples include objective fit, audience relevance, brand fit, clarity, creative distinctiveness, feasibility, production risk, and expected resource use.
+### 6.4 Scoring
 
-A high comparative score must never compensate for failure of a mandatory condition.
+Use scoring only when it improves decision quality.
 
-### 6.4 Scoring and weighting
+Do not invent weights, thresholds, or mathematical precision without evidence.
 
-Where comparative scoring is useful, the framework may use a documented scoring model. Each criterion must have a clear definition, evidence source, and scale.
+Any scoring model must be explainable, testable, and calibrated through simulation before becoming a stable policy.
 
-Weights must not be invented merely to create an appearance of mathematical precision. Initial weights and thresholds should be calibrated during simulation, reviewed against observed decisions, and approved before being treated as stable policy.
+### 6.5 Decision outcomes
 
-The platform must retain the ability to explain why a candidate won, which criteria mattered, and whether the result was sensitive to uncertain inputs.
+- Supported Selection.
+- Provisional Selection.
+- Insufficient Basis.
+- Ineligible.
 
-### 6.5 Confidence and insufficient information
+The system must not conceal uncertainty or fabricate missing information.
 
-The framework must distinguish:
+### 6.6 Compatibility
 
-- **Supported selection:** Required information and evidence are adequate.
-- **Provisional selection:** A useful recommendation is possible, but a non-critical uncertainty remains and is disclosed.
-- **Insufficient basis:** A material fact or requirement is missing; ask for clarification or abstain.
-- **Ineligible:** The candidate violates a hard constraint and must not be selected.
+Evaluate the selected elements together.
 
-The platform must not fabricate missing information or hide uncertainty behind a numerical score.
+A suitable strategy, idea, category, style, typography treatment, copy approach, and provider must form a coherent solution.
 
-### 6.6 Compatibility across decisions
+The strongest individual options do not necessarily form the strongest combination.
 
-Selections must be evaluated as a system, not as isolated winners.
+### 6.7 Traceability
 
-For example:
+Record material decisions, selected knowledge versions, relevant inputs, decisive criteria, significant alternatives, uncertainty, and approval or override status.
 
-- The strategy must support the monthly objective.
-- The idea must express the selected strategy and suit the audience.
-- The content category must support the idea and output format.
-- The creative style must suit the category, brand, and message.
-- The typography system must suit the language, copy volume, hierarchy, and composition.
-- The copywriting approach must preserve the intended message and brand voice.
-- The provider must support the complete production requirements.
-
-If individually attractive options conflict when combined, the platform must select a more coherent combination.
-
-### 6.7 Decision traceability
-
-For every material selection, VARIOM should be able to record:
-
-- The decision made.
-- The selected library item and version.
-- The relevant inputs.
-- The eligible alternatives considered.
-- The hard constraints applied.
-- The decisive suitability criteria.
-- The reason for rejecting materially relevant alternatives.
-- Any uncertainty or missing information.
-- Whether the decision was automated, owner-approved, or manually overridden.
-
-The customer need not see all internal detail. The information exists to support consistency, auditability, debugging, and improvement.
+Detailed internal records need not be displayed to the customer.
 
 ### 6.8 Owner override
 
-The owner may correct or override a recommendation. The system should capture the selected alternative and the reason where available. An override is valuable feedback, but one override must not automatically become a universal rule for all brands or tasks.
+The authorized decision-maker may override a recommendation within their assigned authority.
 
-## 7. Cross-Stage Quality & Learning Intelligence
+A Brand Owner or authorized customer representative may make decisions affecting their own brand, approved content direction, or individual task within the permitted scope.
 
-Quality control is not a separate final activity. It operates throughout the workflow.
+The VARIOM Platform Owner retains authority over general platform policies, shared knowledge approval, and platform-wide operating rules.
 
-**Before planning:** Validate the quality and completeness of the brand and task inputs.
+An individual override must not automatically become a universal rule.
 
-**After planning:** Check objective coverage, strategic coherence, idea diversity, feasibility, and factual support.
+The system should preserve the override and its reason when available.
 
-**After creative development:** Check the relationship between the approved idea, category, style, typography, copy, assets, and production instructions.
+## 7. Quality and Learning
 
-**After production:** Inspect the actual output against the approved brief and acceptance criteria.
+Quality assurance operates across all four stages.
 
-**After publication, when reliable data is available:** Analyze performance in context and use it to inform future recommendations.
+Evaluate:
 
-Learning must distinguish:
-
-- Input quality.
-- Decision quality.
-- Creative brief quality.
+- Brand and task input quality.
+- Marketing decision quality.
+- Creative solution and brief quality.
 - Provider execution quality.
-- Final asset quality.
-- Actual audience or campaign performance.
+- Final content quality.
+- Actual marketing performance when reliable data is available.
 
-A weak result must not automatically be blamed on the AI provider. The cause may be the strategy, idea, missing asset, prompt, provider limitation, or evaluation process.
+A poor output must not automatically be attributed to the provider.
 
-Performance claims require actual, attributable performance data. Until such data exists, VARIOM may evaluate production quality and simulation outcomes, but it must not claim proven marketing effectiveness.
+The cause may be an unsuitable strategy, weak idea, incomplete brief, missing asset, provider limitation, or evaluation failure.
 
-## 8. Approval and Control Model
+Two learning sources must remain distinct:
 
-The workflow must preserve clear approval boundaries:
+1. Production and creative-quality evidence.
+2. Actual audience and campaign performance data.
 
-1. Brand DNA is reviewed and approved before being treated as authoritative.
-2. The monthly content plan is reviewed and approved before its ideas enter production development.
-3. Material changes to an approved idea or message must be visible and may require renewed approval.
-4. Production instructions must be checked before paid generation.
-5. Generated results must pass quality review before being marked final.
-6. Publication or distribution requires its own explicit authorization wherever applicable.
+Simulation can evaluate reasoning, consistency, and production quality. It cannot establish proven commercial effectiveness.
 
-The platform must keep proposal, pending review, approved, rejected, generated, failed, repaired, and final states distinct. A generated asset is not automatically an approved asset.
+Reliable quality assessments and actual performance evidence may inform future recommendations and knowledge improvements.
+
+Such improvements must:
+
+- Preserve the distinction between verified facts, observed results, assumptions, and recommendations.
+- Consider the relevance and reliability of the evidence.
+- Avoid generalizing a single customer or campaign result to all brands.
+- Remain subject to the applicable knowledge review and approval process before becoming shared rules or approved knowledge.
+
+Learning should improve future decisions without silently changing approved brand information or general operating policies.
+
+## 8. Customer Approval and Control
+
+Customer interaction must remain focused on meaningful decisions.
+
+The approval model recognizes the following decision types:
+
+1. Brand DNA approval.
+2. Marketing plan or material concept approval.
+3. Approval of material changes to approved messages or concepts.
+4. Paid production authorization where required.
+5. Final content acceptance.
+6. Publication or distribution authorization where applicable.
+
+These are approval categories, not mandatory separate checkpoints for every task.
+
+Approvals must be requested only when the relevant decision requires customer authority or materially affects the approved objective, brand direction, message, financial commitment, or publication.
+
+Compatible approvals should be combined whenever practical, provided their scope and consequences remain clear.
+
+Internal creative decisions should normally be handled by VARIOM without requiring individual customer approval, provided they remain within the approved direction and constraints.
+
+The approval process must distinguish clearly between:
+
+- Brand and marketing approval.
+- Creative-direction approval where material.
+- Financial authorization.
+- Final content acceptance.
+- Publication or distribution authorization.
+
+A technical or creative approval must never be interpreted as financial or publication authorization.
+
+The system must preserve clear statuses and must never equate generation with approval.
 
 ## 9. Knowledge Governance
 
-The six knowledge documents must share a controlled structure and vocabulary.
+Each knowledge entry should have only the metadata necessary for reliable use:
 
-Every library entry should have:
-
-- A stable identifier.
-- A canonical name and definition.
-- A version and status.
-- A documented purpose.
+- Stable ID.
+- Name and definition.
+- Version and status.
+- Purpose.
 - Eligibility conditions.
 - Required inputs.
 - Exclusions and limitations.
-- Relationships to other library entries.
+- Relevant relationships.
 - Application guidance.
-- Examples.
 - Quality criteria.
-- Source or rationale where relevant.
-- A review history.
+- Source or rationale when relevant.
 
-Suggested knowledge statuses:
+**Statuses:**
 
-- **DRAFT:** Being authored; not eligible for production selection.
-- **CANDIDATE:** Ready for controlled simulation, but not generally approved.
-- **APPROVED:** Accepted for use under its documented conditions.
-- **DEPRECATED:** Retained for traceability but no longer recommended for new work.
-- **RETIRED:** Not eligible for use.
+- DRAFT.
+- CANDIDATE.
+- APPROVED.
+- DEPRECATED.
+- RETIRED.
 
-A library entry must not become approved merely because it has been written or uploaded. Approval requires review and evidence appropriate to its purpose.
+An entry is not approved merely because it has been written or uploaded.
 
-## 10. Simulation and Validation Before Platform Adoption
+Knowledge governance is responsible for the creation, review, approval, versioning, updating, and retirement of shared knowledge.
 
-The methodology must be tested manually before any instruction is issued to implement it in the platform.
+The Intelligent Selection & Decision Framework is responsible for using eligible knowledge according to its status and suitability. It does not independently approve or modify shared knowledge.
 
-The simulation should use multiple meaningfully different brands and content tasks, including cases with:
+Knowledge governance must remain proportionate. Do not create administrative requirements that add cost without improving selection, quality, traceability, or safety.
 
-- Strong and complete Brand DNA.
-- Incomplete or ambiguous brand information.
-- Different marketing objectives.
-- Different product and service contexts.
-- Different audiences and languages.
-- Different content categories and creative treatments.
-- Conflicting constraints.
-- Missing or unsuitable assets.
-- Unsupported claims that must be rejected.
-- Multiple plausible candidate strategies or styles.
-- Production limitations or provider failures.
+## 10. Simulation and Validation
 
-For each case, record the inputs, candidate options, eligibility decisions, selection rationale, resulting brief, generated output where available, quality findings, repairs, and owner assessment.
+Before platform adoption, test the methodology manually across meaningfully different brands and tasks.
 
-### Validation dimensions
+Simulation should include:
 
-At minimum, assess:
+- Complete and incomplete Brand DNA.
+- Different products, audiences, and markets.
+- Monthly plans and individual requests.
+- Images, videos, montage, and editing.
+- Competing strategies and creative alternatives.
+- Missing or conflicting information.
+- Unsupported claims.
+- Missing assets.
+- Provider limitations and production failures.
+
+For each case, record the relevant inputs, decisions, rationale, resulting brief, output where available, quality findings, repairs, and owner assessment.
+
+**Evaluate:**
 
 1. Brand alignment.
-2. Marketing-objective alignment.
-3. Audience relevance.
-4. Idea originality and relevance.
-5. Correct category selection.
-6. Creative-style suitability.
-7. Typography suitability and readability.
-8. Copy quality and factual integrity.
-9. Internal consistency of the creative brief.
-10. Production feasibility.
-11. Final-output quality.
-12. Repeatability and consistency across comparable cases.
-13. Cost and avoidable generation attempts.
-14. Correct handling of missing information and conflicting requirements.
+2. Marketing relevance.
+3. Audience suitability.
+4. Idea quality.
+5. Category and style selection.
+6. Typography and copy quality.
+7. Factual integrity.
+8. Brief consistency.
+9. Production feasibility.
+10. Output quality.
+11. Decision consistency.
+12. Cost and unnecessary attempts.
+13. Missing-information handling.
+14. Customer experience and approval burden.
 
-### Validation discipline
+Use consistent criteria across comparable cases.
 
-- Use the same evaluation criteria across comparable cases.
-- Keep owner-provided facts separate from assumptions.
-- Record failures as well as successes.
-- Do not tune the rules solely to one brand or one favorable example.
-- Do not claim statistical proof from a small qualitative simulation.
-- Revise the methodology when evidence reveals a systematic weakness.
-- Repeat relevant tests after material changes.
-- Obtain explicit owner acceptance before treating the methodology as ready for platform adoption.
+Do not claim statistical proof from a small qualitative sample.
 
-## 11. Non-Goals and Boundaries
+Revise the methodology when evidence reveals a material weakness, then repeat the affected tests.
 
-This strategy document does not:
+Simulation should focus on cases that can validate a meaningful decision or expose a material weakness. Repeating equivalent cases without additional learning is not required.
 
-- Claim that the six libraries already exist or are complete.
-- Claim that the selection framework is already implemented.
-- Approve a software architecture, database schema, agent topology, or service decomposition.
-- Mandate a specific AI provider.
-- Define final scoring weights before validation.
-- Guarantee sales, reach, engagement, or other commercial outcomes.
-- Authorize publication without the required approval.
-- Authorize changes to existing platform behavior or product scope.
-- Replace product, legal, privacy, safety, or provider-specific requirements.
-- Treat generated content as factually correct merely because an AI provider returned it.
+## 11. Boundaries
 
-The strategy defines the intended operating methodology. Technical design and platform implementation are separate activities that may begin only after the methodology is validated and explicitly accepted.
+This document does not:
 
-## 12. Proposed Work Sequence
+- Claim that the knowledge libraries already exist.
+- Claim that the decision framework is implemented.
+- Approve a software architecture or database design.
+- Mandate a particular AI provider.
+- Establish unvalidated scoring weights.
+- Guarantee marketing or commercial outcomes.
+- Authorize publication.
+- Approve changes to existing platform scope or behavior.
+- Replace legal, privacy, safety, or provider requirements.
 
-The work should proceed in the following order:
+Technical design and implementation remain separate activities requiring explicit owner authorization.
 
-**Step 1 — Strategy definition**
-- Review and refine this master strategy.
-- Resolve material conceptual gaps.
-- Obtain explicit owner approval for the strategy as the basis of simulation.
+## 12. Work Sequence
 
-**Step 2 — Six-document knowledge package**
-- Create one separate repository file containing the six knowledge documents, with clear internal sections and shared terminology.
-- Develop and review each knowledge domain systematically.
-- Keep incomplete entries clearly marked as draft or candidate.
-- Update the package as each document is completed.
+1. Review and approve the master strategy.
+2. Develop the six independent knowledge documents one at a time.
+3. Review and organize their shared terminology and dependencies.
+4. Run comprehensive manual simulations.
+5. Evaluate results and improve the methodology.
+6. Present evidence, limitations, and unresolved risks.
+7. Obtain explicit owner acceptance.
+8. Prepare the platform-adoption and implementation plan.
+9. Begin implementation only after explicit authorization.
 
-**Step 3 — Manual simulation**
-- Apply the strategy and knowledge package to real brand scenarios.
-- Test the selection logic and the end-to-end workflow.
-- Record evidence and evaluate results against the validation dimensions.
+Uploading documentation does not constitute strategy approval or platform adoption.
 
-**Step 4 — Improvement**
-- Identify recurring weaknesses and their causes.
-- Revise the strategy, knowledge entries, or decision rules as supported by evidence.
-- Re-run affected simulation cases.
+## 13. Success Criteria
 
-**Step 5 — Owner acceptance**
-- Present the final strategy, knowledge package, test evidence, limitations, and unresolved risks.
-- Obtain explicit owner acceptance or further revision instructions.
+The methodology is ready for platform-adoption planning when simulation demonstrates that it can:
 
-**Step 6 — Platform adoption planning**
-- Only after acceptance, translate the methodology into an implementation plan.
-- Map the accepted methodology to the platform's actual capabilities and constraints.
-- Do not begin implementation merely because documentation has been uploaded.
+- Make explainable and traceable decisions.
+- Respect brand facts and restrictions.
+- Develop relevant marketing directions.
+- Produce coherent creative solutions.
+- Select compatible production routes.
+- Handle missing information safely.
+- Produce actionable briefs.
+- Reduce avoidable production failures.
+- Evaluate outputs consistently.
+- Support different brands without generic results.
+- Keep customer interactions simple.
+- Disclose limitations honestly.
 
-## 13. Success Criteria for the Methodology
+No single score or successful example replaces owner review.
 
-The methodology should be considered ready for platform-adoption planning only when simulation demonstrates that it can:
+## 14. Final Strategic Standard
 
-- Produce decisions that are explainable and traceable.
-- Consistently respect brand facts, identity, and restrictions.
-- Select strategies and ideas that serve the stated marketing objectives.
-- Select compatible categories, styles, typography, and copy approaches.
-- Detect missing information and abstain when necessary.
-- Produce coherent, actionable creative briefs.
-- Reduce avoidable production failures and unnecessary retries.
-- Evaluate outputs against explicit, repeatable quality criteria.
-- Work across materially different brands without collapsing them into generic outputs.
-- Preserve a simple customer approval experience.
-- Show documented limitations rather than concealing them.
+VARIOM must understand before creating, strategize before executing, direct before generating, and verify before accepting.
 
-No single score or successful example should replace owner review of the evidence.
+Its knowledge provides the expertise. Its decision mechanism applies that expertise to the actual task. Its production capabilities execute the creative solution. Its quality controls verify the result.
 
-## 14. Final Strategic Statement
-
-VARIOM should not simply generate advertising content. It should understand the brand, determine the marketing purpose, develop a suitable creative solution, direct the production process, and verify the result.
-
-Its knowledge libraries provide structured expertise. Its selection framework applies that expertise to the actual brand and task. Its quality and learning controls ensure that decisions and outputs are examined rather than accepted blindly.
-
-**The intended standard is: deliberate decisions, coherent creative direction, evidence-based production, and verified quality — with minimum complexity for the customer.**
+The objective is not maximum system complexity. It is maximum useful intelligence with minimum operational and customer complexity.
 
 ---
 
-**Current decision status:** This document is a new strategic proposal for owner review. It is not yet owner-approved, simulation-validated, or authorized for platform implementation.
+**Current decision status:** OWNER-APPROVED. This strategy is approved as the strategic reference for the next knowledge-documentation and simulation stages. Simulation results and any subsequent revisions remain subject to owner review. Platform implementation is not authorized by this approval and requires separate explicit authorization.
