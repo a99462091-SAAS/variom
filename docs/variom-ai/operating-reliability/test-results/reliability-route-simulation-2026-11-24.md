@@ -4,7 +4,7 @@
 **Date:** 2026-11-24  
 **Branch:** work/variom-real-world-content-simulation  
 **Evidence level:** DESK_SIMULATION only  
-**Status:** READY_FOR_OWNER_REVIEW — route logic assessed; real provider/artifact/software evidence remains outstanding.
+**Status:** OWNER-ACCEPTED — standards approved; real provider/artifact/software evidence remains outstanding.
 
 ## 1. Scope
 
@@ -85,4 +85,4 @@ The BLOCKED results are not failures of the decision logic; they identify eviden
 5. Any real provider execution, paid generation, or external test requires the appropriate separate authorization and must record actual costs and artifacts.
 6. Platform implementation is outside this run and requires separate explicit authorization.
 
-**Conclusion:** R1–R4 version 0.2-draft are READY_FOR_OWNER_REVIEW based on source consistency and desk simulation. They are not yet OWNER_ACCEPTED, provider-validated, artifact-validated, software-implemented, or production-proven.
+**Conclusion:** R1–R4 version 0.2-draft are READY_FOR_OWNER_REVIEW based on source consistency and desk simulation. They are OWNER-APPROVED as standards, but are not provider-validated, artifact-validated, software-implemented, or production-proven.
