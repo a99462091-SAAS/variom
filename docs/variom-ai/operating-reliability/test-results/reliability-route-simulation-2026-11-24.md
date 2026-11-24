@@ -81,7 +81,7 @@ The BLOCKED results are not failures of the decision logic; they identify eviden
 1. The revised R1–R4 drafts are internally coherent with the approved source hierarchy and the five owner-approved structural decisions.
 2. perFIX is suitable as a controlled case for authenticity, unsupported-claim, and route-readiness testing, but actual logo/package fidelity requires a fresh artifact and direct comparison with the supplied originals.
 3. Video, montage, and editing remain unvalidated at provider/artifact level. They must not inherit evidence from a static-image test.
-4. The standards remain DRAFT — OWNER REVIEW REQUIRED. This report does not self-approve them.
+4. The standards have since received explicit owner approval at Version 0.2. This report records test evidence and does not replace that approval.
 5. Any real provider execution, paid generation, or external test requires the appropriate separate authorization and must record actual costs and artifacts.
 6. Platform implementation is outside this run and requires separate explicit authorization.
 
