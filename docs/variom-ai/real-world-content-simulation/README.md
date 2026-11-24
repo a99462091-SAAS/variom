@@ -27,7 +27,7 @@
 
 | Brand | Brand DNA | Monthly cycle | Status |
 |---|---|---|---|
-| perFIX | Draft prepared; awaiting owner confirmation of open details | Pending | Discovery in progress |
+| perFIX | Complete draft prepared; awaiting explicit owner approval | Pending | Brand DNA ready for approval |
 | Brand 02 | Pending | Pending | Not started |
 | Brand 03 | Pending | Pending | Not started |
 
@@ -60,7 +60,7 @@
 
 ## Brand 01 — perFIX
 
-**Status:** Draft prepared from owner-provided answers; not yet owner-approved as a final Brand DNA.
+**Status:** Complete draft prepared from owner-provided answers; awaiting explicit owner approval.
 
 ### Brand essence
 
@@ -71,8 +71,11 @@ A Turkish-origin laser-printer toner brand positioned around dependable print qu
 | Dimension | Current record | Evidence status |
 |---|---|---|
 | Brand name | perFIX | OWNER-PROVIDED |
-| Category | Laser-printer toner / ink cartridges (owner described the category as laser-printing inks) | OWNER-PROVIDED; product terminology to confirm |
+| Category | Laser-printer toner / cartridges | OWNER-PROVIDED |
 | Origin | Turkish product | OWNER-PROVIDED |
+| Printer compatibility | HP printers; exact compatible models and cartridge codes not supplied | OWNER-PROVIDED; model-level compatibility NOT PROVIDED |
+| Warranty | Warranty for print quality; duration, terms, exclusions, and claim process not supplied | OWNER-PROVIDED; detailed terms NOT PROVIDED |
+| Sales market | Kuwait | OWNER-PROVIDED |
 | Differentiation | High-quality, reliable Turkish product with a warranty | OWNER-PROVIDED |
 | Core value | Quality at a competitive/affordable price | OWNER-PROVIDED |
 | Audience problem | Original cartridges are expensive; low-quality generic alternatives can produce poor print results and printing problems | OWNER-PROVIDED |
@@ -107,7 +110,7 @@ A Turkish-origin laser-printer toner brand positioned around dependable print qu
 - Exact target customer segments and sales geography.
 - Approved logo usage, fonts, and detailed visual rules beyond white/blue color direction.
 
-## Monthly content cycle template
+### Owner approval checkpoint\n\nThe discovery inputs are complete for the current simulation scope. The owner has supplied the compatibility brand (HP), the warranty type (print-quality warranty), and the sales market (Kuwait). The Brand DNA is presented for explicit owner approval; this update does not itself imply approval.\n\n## Monthly content cycle template
 
 - Month / campaign period:
 - Business context and priority offer:
@@ -148,7 +151,7 @@ Do not fabricate metrics or claim campaign performance without real performance 
 |---|---|---|---|---|---|
 | 2026-11-24 | Setup | Simulation sidecar initialized | Repository commit | Begin Brand 01 discovery | Pending |
 | 2026-11-24 | Brand DNA template | Owner approved a compact, adaptive discovery template; broad questionnaire rejected as excessive | Owner confirmation in conversation | Use the approved five-part discovery template and reuse existing profile data | Approved |
-| 2026-11-24 | Brand 01 / perFIX | Owner supplied initial Brand DNA information; Dropbox perFIX asset folder located | Owner answers; Dropbox folder listing | Confirm only three material gaps: compatibility, warranty terms, and sales market | Pending |
+| 2026-11-24 | Brand 01 / perFIX | Owner completed the three follow-up fields: HP compatibility, print-quality warranty, and Kuwait market | Owner answers | Present consolidated Brand DNA for explicit approval; retain model-level compatibility and detailed warranty terms as unverified | Awaiting approval |
 
 ## Cross-brand final assessment
 
