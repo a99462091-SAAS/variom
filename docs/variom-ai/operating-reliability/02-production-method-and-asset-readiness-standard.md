@@ -1,8 +1,8 @@
 # VARIOM — Production Route & Asset Readiness Control
 
 **Document ID:** V-OR-02  
-**Version:** 0.2-draft  
-**Status:** DRAFT — OWNER REVIEW REQUIRED  
+**Version:** 0.2  
+**Status:** OWNER-APPROVED  
 **Authority:** Master Strategy V1.2 and applicable approved knowledge documents.
 
 ## 1. Purpose
@@ -49,6 +49,6 @@ Validate existing R2-N01–N10 cases, covering protected asset regeneration, mis
 
 Capture route, concise rationale, essential assets and handling, capability evidence state, restrictions, limitations, and outcome in the **Unified Task Execution Record**. Do not create a separate asset report unless a task-specific artifact is genuinely needed.
 
-Draft only; owner acceptance is required before adoption or implementation.
+OWNER-APPROVED as an operational standard. Platform implementation still requires separate explicit authorization.
 
 **Operating rule:** Select a feasible route based on evidence and task needs; never treat a provider promise as proof or route readiness as permission to spend.
