@@ -27,7 +27,7 @@
 
 | Brand | Brand DNA | Monthly cycle | Status |
 |---|---|---|---|
-| perFIX | OWNER-APPROVED | Pending | Brand DNA approved; ready for monthly content setup |
+| perFIX | OWNER-APPROVED | OWNER-APPROVED | Brand DNA and 12-piece monthly content plan approved; production handoff next |
 | Brand 02 | Pending | Pending | Not started |
 | Brand 03 | Pending | Pending | Not started |
 
@@ -128,6 +128,49 @@ A Turkish-origin laser-printer toner brand positioned around dependable print qu
 - Gemini output references / descriptions:
 - Evaluation, revisions, and final disposition:
 
+## Brand 01 — perFIX monthly content plan
+
+**Status:** OWNER-APPROVED — 2026-11-24.  
+**Scope:** 12 proposed content pieces; four short-form videos (Reels) and eight static image designs. This is an owner-approved creative plan, not evidence of generated or published content.
+
+### Strategic direction
+
+- **Primary objective:** Build trust in perFIX and encourage the Kuwait audience to consider it as a practical toner choice.
+- **Supporting objectives:** Communicate print-quality positioning, explain the print-quality warranty, and encourage qualified product inquiries.
+- **Core messages:** Dependable print quality; competitive value; Turkish origin; print-quality warranty; HP compatibility subject to exact model/cartridge verification.
+- **Creative guardrails:** Do not invent prices, discounts, warranty duration/terms, technical test results, certifications, or exact HP model compatibility. Do not present generated packaging as the actual product packaging. Use Kuwaiti dialect and the approved white/blue color direction.
+
+### Approved content ideas and formats
+
+| # | Working title | Format | Creative idea | Message / objective |
+|---:|---|---|---|---|
+| 01 | perFIX: your smart printing choice | Static image | Hero product composition on a clean white background with blue accents; highlight Turkish origin and print-quality warranty | Introduce the brand and its value |
+| 02 | Why pay more? | Short video / Reel | Open with the pain of expensive toner, then reveal perFIX and its value proposition | Attract attention and build interest |
+| 03 | Clear printing starts with the right choice | Static image | Printed page detail with toner product; focus on the importance of print quality | Connect the brand to a practical customer need |
+| 04 | Print-quality warranty | Static image | Product with a clear warranty visual and the exact phrase “print-quality warranty” | Build confidence without inventing warranty terms |
+| 05 | Have an HP printer? Let us help you choose | Short video / Reel | Show a customer checking a printer model and being guided to verify cartridge compatibility | Generate qualified compatibility inquiries |
+| 06 | Turkish quality, practical value | Static image | Product-led composition with restrained Turkish-origin visual cues; no unsupported certifications | Reinforce product value and origin |
+| 07 | Don't choose toner by price alone | Static image / infographic | Three decision factors: quality, compatibility, and warranty | Educate and build trust |
+| 08 | Does your work depend on daily printing? | Short video / Reel | Show a small office's document-printing workflow and introduce perFIX as a toner option | Address office and business users |
+| 09 | Quality and price in one choice | Static image | Product hero with concise quality and competitive-price message | Strengthen purchase consideration |
+| 10 | Before buying toner, check these three things | Static image / infographic | Checklist: printer model, cartridge code, and compatibility | Help customers avoid incorrect purchases |
+| 11 | What's your biggest printing problem? | Static image / interactive post | Ask the audience to identify cost, print-quality, or compatibility concerns | Encourage engagement and learn audience needs |
+| 12 | Choose perFIX — ask us about compatibility | Short video / Reel | Product-led closing sequence showing brand value, warranty, and a call to ask about verified HP compatibility | Convert interest into product inquiries |
+
+### Approved format mix
+
+- **4 short-form videos / Reels:** items 02, 05, 08, and 12.
+- **8 static image designs:** items 01, 03, 04, 06, 07, 09, 10, and 11.
+- This is a proposed test mix approved by the owner, not a performance-based optimization. Platform-specific dimensions and publishing cadence remain unspecified.
+
+### Owner decision
+
+The owner approved all 12 ideas and their proposed formats without changes on 2026-11-24. This approval covers the creative plan only; it does not approve individual final assets, copy, claims, or publication.
+
+### Production workflow
+
+Prepare one production prompt at a time. The owner will manually submit each prompt to Gemini and return the generated result for review. Evaluate each observed result against the approved Brand DNA, the relevant content idea, and the exact production prompt before moving to the next item.
+
 ## Evaluation rubric
 
 Score each applicable dimension from 1–5 and include evidence:
@@ -151,7 +194,7 @@ Do not fabricate metrics or claim campaign performance without real performance 
 |---|---|---|---|---|---|
 | 2026-11-24 | Setup | Simulation sidecar initialized | Repository commit | Begin Brand 01 discovery | Pending |
 | 2026-11-24 | Brand DNA template | Owner approved a compact, adaptive discovery template; broad questionnaire rejected as excessive | Owner confirmation in conversation | Use the approved five-part discovery template and reuse existing profile data | Approved |
-| 2026-11-24 | Brand 01 / perFIX | Owner explicitly approved the consolidated Brand DNA | Owner confirmation in conversation | Use the approved profile as the basis for perFIX monthly content planning; retain model-level compatibility and detailed warranty terms as unverified | OWNER-APPROVED |
+| 2026-11-24 | Brand 01 / perFIX | Owner explicitly approved the consolidated Brand DNA | Owner confirmation in conversation | Use the approved profile as the basis for perFIX monthly content planning; retain model-level compatibility and detailed warranty terms as unverified | OWNER-APPROVED |\n| 2026-11-24 | Brand 01 / perFIX monthly plan | Owner approved all 12 content ideas and their formats: 4 short videos and 8 static designs, with no changes | Owner confirmation in conversation | Start production with item 01; hand off one prompt at a time and assess returned Gemini outputs | OWNER-APPROVED |
 
 ## Cross-brand final assessment
 
