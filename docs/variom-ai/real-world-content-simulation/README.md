@@ -31,20 +31,32 @@
 | Brand 02 | Pending | Pending | Not started |
 | Brand 03 | Pending | Pending | Not started |
 
-## Brand record template
+## Brand DNA discovery — approved simulation template
 
-For each brand, record:
+**Owner-approved approach (2026-11-24):** Use a compact, adaptive discovery flow, not a broad company questionnaire. Do not ask again for information already available in registration or the brand's existing profile. Ask only for missing information that materially affects brand understanding and content quality. Questions may be skipped when the answer is already known or unavailable.
 
-- Brand name and business category
-- Products/services and priority offers
-- Market, audience, customer needs, and buying barriers
-- Positioning, differentiation, and proof/evidence
-- Brand personality, values, and desired perception
-- Tone of voice, dialect/language lock, and vocabulary
-- Visual identity, colors, typography, logo/use rules, and references
-- Content boundaries, taboo topics, prohibited claims, and compliance notes
-- Competitors and relevant market context (only when supplied or verified)
-- Open questions and confidence/verification notes
+### Existing profile data — reuse, do not re-ask
+
+- Brand name
+- Business category
+- Target audience
+- Logo, if supplied
+
+### Core discovery questions
+
+1. **Differentiation and value:** What makes the brand different from competitors, and what core value does it offer?
+2. **Audience understanding:** What are the audience's main needs/problems, and what motivates them to choose this brand?
+3. **Brand personality and communication:** What personality should the brand express? What language/dialect and communication style should it use?
+4. **Visual identity:** What are the available brand colors, fonts, image/design style, and visual references? Ask only for missing or unclear elements.
+5. **Products and services:** What are the relevant products/services, their key benefits, and any important marketing facts? Reuse supplied information and do not invent claims.
+
+### Discovery rules
+
+- Keep questions concise and adaptive; do not force every question when the information is already available.
+- Do not expand discovery into a generic audit of every business function.
+- Mark unknowns as **NOT PROVIDED / NOT VERIFIED** rather than guessing.
+- Separate owner-provided facts from assistant interpretations and proposals.
+- Present the resulting Brand DNA summary for owner review and approval before using it as the basis for the monthly content cycle.
 
 ## Monthly content cycle template
 
@@ -86,6 +98,7 @@ Do not fabricate metrics or claim campaign performance without real performance 
 | Date | Brand / stage | Observation | Evidence | Proposed improvement | Owner decision |
 |---|---|---|---|---|---|
 | 2026-11-24 | Setup | Simulation sidecar initialized | Repository commit | Begin Brand 01 discovery | Pending |
+| 2026-11-24 | Brand DNA template | Owner approved a compact, adaptive discovery template; broad questionnaire rejected as excessive | Owner confirmation in conversation | Use the approved five-part discovery template and reuse existing profile data | Approved |
 
 ## Cross-brand final assessment
 
